@@ -1,0 +1,1537 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SectionDefinitionTypeBuilder
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SectionDefinitionTypeBuilder
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Builder_Section_SectionDefinitionTypeBuilder.md&amp;value=---%0Auid%3A%20HwpxIO.Builder.Section.SectionDefinitionTypeBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder">
+
+
+
+  <h1 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder" class="text-break">
+    Class SectionDefinitionTypeBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Builder.html">Builder</a>.<a class="xref" href="HwpxIO.Builder.Section.html">Section</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class SectionDefinitionTypeBuilder : SwitchableBuilder&lt;SectionDefinitionType&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html">HwpxBuilderCore</a>&lt;<a class="xref" href="HwpxIO.Models.SectionDefinitionType.html">SectionDefinitionType</a>&gt;</div>
+      <div><a class="xref" href="HwpxIO.Builder.Switchable.SwitchableBuilder-1.html">SwitchableBuilder</a>&lt;<a class="xref" href="HwpxIO.Models.SectionDefinitionType.html">SectionDefinitionType</a>&gt;</div>
+      <div><span class="xref">SectionDefinitionTypeBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Switchable.SwitchableBuilder-1.html#HwpxIO_Builder_Switchable_SwitchableBuilder_1_AddSwitch_HwpxIO_Models_Compatibility_Switch_">SwitchableBuilder&lt;SectionDefinitionType&gt;.AddSwitch(Switch)</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Switchable.SwitchableBuilder-1.html#HwpxIO_Builder_Switchable_SwitchableBuilder_1_AddSwitch_System_Action_HwpxIO_Builder_Switchable_SwitchBuilder__0___">SwitchableBuilder&lt;SectionDefinitionType&gt;.AddSwitch(Action&lt;SwitchBuilder&lt;SectionDefinitionType&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Build">HwpxBuilderCore&lt;SectionDefinitionType&gt;.Build()</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Value">HwpxBuilderCore&lt;SectionDefinitionType&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_HwpxBuilder">HwpxBuilderCore&lt;SectionDefinitionType&gt;.HwpxBuilder</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder__ctor_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder__ctor_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.#ctor(HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  SectionDefinitionTypeBuilder(IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder(IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder__ctor_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder__ctor_HwpxIO_Models_SectionDefinitionType_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.#ctor(HwpxIO.Models.SectionDefinitionType,HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  SectionDefinitionTypeBuilder(SectionDefinitionType, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder(SectionDefinitionType value, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionType.html">SectionDefinitionType</a></dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddMasterPage_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddMasterPage*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddMasterPage_HwpxIO_Models_SectionDefinitionTypeMasterPage_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddMasterPage(HwpxIO.Models.SectionDefinitionTypeMasterPage)">
+  AddMasterPage(SectionDefinitionTypeMasterPage)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder AddMasterPage(SectionDefinitionTypeMasterPage masterPage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>masterPage</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypeMasterPage.html">SectionDefinitionTypeMasterPage</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddMasterPage_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddMasterPage*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddMasterPage_System_String_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddMasterPage(System.String)">
+  AddMasterPage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder AddMasterPage(string idRef)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddPageBorderFill_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddPageBorderFill*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddPageBorderFill_HwpxIO_Models_SectionDefinitionTypePageBorderFill_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddPageBorderFill(HwpxIO.Models.SectionDefinitionTypePageBorderFill)">
+  AddPageBorderFill(SectionDefinitionTypePageBorderFill)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder AddPageBorderFill(SectionDefinitionTypePageBorderFill pageBorderFill)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pageBorderFill</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypePageBorderFill.html">SectionDefinitionTypePageBorderFill</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddPageBorderFill_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddPageBorderFill*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_AddPageBorderFill_System_Action_HwpxIO_Builder_Section_SectionDefinitionTypePageBorderFillBuilder__HwpxIO_Models_SectionDefinitionTypePageBorderFill_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.AddPageBorderFill(System.Action{HwpxIO.Builder.Section.SectionDefinitionTypePageBorderFillBuilder},HwpxIO.Models.SectionDefinitionTypePageBorderFill)">
+  AddPageBorderFill(Action&lt;SectionDefinitionTypePageBorderFillBuilder&gt;, SectionDefinitionTypePageBorderFill)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder AddPageBorderFill(Action&lt;SectionDefinitionTypePageBorderFillBuilder&gt; builderAction, SectionDefinitionTypePageBorderFill pageBorderFill = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypePageBorderFillBuilder.html">SectionDefinitionTypePageBorderFillBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>pageBorderFill</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypePageBorderFill.html">SectionDefinitionTypePageBorderFill</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_Default_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.Default*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_Default_HwpxIO_Models_SectionDefinitionType_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.Default(HwpxIO.Models.SectionDefinitionType,HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  Default(SectionDefinitionType, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SectionDefinitionTypeBuilder Default(SectionDefinitionType value = null, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionType.html">SectionDefinitionType</a></dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetAttributes_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetAttributes*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetAttributes_System_String_System_Nullable_HwpxIO_Enums_SectionDefinitionTypeTextDirection__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_HwpxIO_Enums_HWPValueUnit__System_String_System_String_System_Nullable_System_Boolean__System_Nullable_System_Int32__" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetAttributes(System.String,System.Nullable{HwpxIO.Enums.SectionDefinitionTypeTextDirection},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{HwpxIO.Enums.HWPValueUnit},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32})">
+  SetAttributes(string, SectionDefinitionTypeTextDirection?, int?, int?, int?, HWPValueUnit?, string, string, bool?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetAttributes(string id = null, SectionDefinitionTypeTextDirection? textDirection = null, int? spaceColumns = null, int? tabStop = null, int? tabStopVal = null, HWPValueUnit? tabStopUnit = null, string outlineShapeIDRef = null, string memoShapeIDRef = null, bool? textVerticalWidthHead = null, int? masterPageCnt = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>textDirection</code> <a class="xref" href="HwpxIO.Enums.SectionDefinitionTypeTextDirection.html">SectionDefinitionTypeTextDirection</a>?</dt>
+    <dd></dd>
+    <dt><code>spaceColumns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>tabStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>tabStopVal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>tabStopUnit</code> <a class="xref" href="HwpxIO.Enums.HWPValueUnit.html">HWPValueUnit</a>?</dt>
+    <dd></dd>
+    <dt><code>outlineShapeIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>memoShapeIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>textVerticalWidthHead</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>masterPageCnt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetEndNotePr_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetEndNotePr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetEndNotePr_HwpxIO_Models_AutoNumFormatType_HwpxIO_Models_NoteShapeTypeNoteLine_HwpxIO_Models_NoteShapeTypeNoteSpacing_HwpxIO_Models_EndNoteShapeTypeNumbering_HwpxIO_Models_EndNoteShapeTypePlacement_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetEndNotePr(HwpxIO.Models.AutoNumFormatType,HwpxIO.Models.NoteShapeTypeNoteLine,HwpxIO.Models.NoteShapeTypeNoteSpacing,HwpxIO.Models.EndNoteShapeTypeNumbering,HwpxIO.Models.EndNoteShapeTypePlacement)">
+  SetEndNotePr(AutoNumFormatType, NoteShapeTypeNoteLine, NoteShapeTypeNoteSpacing, EndNoteShapeTypeNumbering, EndNoteShapeTypePlacement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetEndNotePr(AutoNumFormatType autoNumFormat, NoteShapeTypeNoteLine noteLine, NoteShapeTypeNoteSpacing noteSpacing, EndNoteShapeTypeNumbering numbering, EndNoteShapeTypePlacement placement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>autoNumFormat</code> <a class="xref" href="HwpxIO.Models.AutoNumFormatType.html">AutoNumFormatType</a></dt>
+    <dd></dd>
+    <dt><code>noteLine</code> <a class="xref" href="HwpxIO.Models.NoteShapeTypeNoteLine.html">NoteShapeTypeNoteLine</a></dt>
+    <dd></dd>
+    <dt><code>noteSpacing</code> <a class="xref" href="HwpxIO.Models.NoteShapeTypeNoteSpacing.html">NoteShapeTypeNoteSpacing</a></dt>
+    <dd></dd>
+    <dt><code>numbering</code> <a class="xref" href="HwpxIO.Models.EndNoteShapeTypeNumbering.html">EndNoteShapeTypeNumbering</a></dt>
+    <dd></dd>
+    <dt><code>placement</code> <a class="xref" href="HwpxIO.Models.EndNoteShapeTypePlacement.html">EndNoteShapeTypePlacement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetEndNotePr_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetEndNotePr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetEndNotePr_HwpxIO_Models_EndNoteShapeType_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetEndNotePr(HwpxIO.Models.EndNoteShapeType)">
+  SetEndNotePr(EndNoteShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetEndNotePr(EndNoteShapeType endNoteShapeType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>endNoteShapeType</code> <a class="xref" href="HwpxIO.Models.EndNoteShapeType.html">EndNoteShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetFootNotePr_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetFootNotePr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetFootNotePr_HwpxIO_Models_AutoNumFormatType_HwpxIO_Models_NoteShapeTypeNoteLine_HwpxIO_Models_NoteShapeTypeNoteSpacing_HwpxIO_Models_FootNoteShapeTypeNumbering_HwpxIO_Models_FootNoteShapeTypePlacement_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetFootNotePr(HwpxIO.Models.AutoNumFormatType,HwpxIO.Models.NoteShapeTypeNoteLine,HwpxIO.Models.NoteShapeTypeNoteSpacing,HwpxIO.Models.FootNoteShapeTypeNumbering,HwpxIO.Models.FootNoteShapeTypePlacement)">
+  SetFootNotePr(AutoNumFormatType, NoteShapeTypeNoteLine, NoteShapeTypeNoteSpacing, FootNoteShapeTypeNumbering, FootNoteShapeTypePlacement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetFootNotePr(AutoNumFormatType autoNumFormat, NoteShapeTypeNoteLine noteLine, NoteShapeTypeNoteSpacing noteSpacing, FootNoteShapeTypeNumbering numbering, FootNoteShapeTypePlacement placement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>autoNumFormat</code> <a class="xref" href="HwpxIO.Models.AutoNumFormatType.html">AutoNumFormatType</a></dt>
+    <dd></dd>
+    <dt><code>noteLine</code> <a class="xref" href="HwpxIO.Models.NoteShapeTypeNoteLine.html">NoteShapeTypeNoteLine</a></dt>
+    <dd></dd>
+    <dt><code>noteSpacing</code> <a class="xref" href="HwpxIO.Models.NoteShapeTypeNoteSpacing.html">NoteShapeTypeNoteSpacing</a></dt>
+    <dd></dd>
+    <dt><code>numbering</code> <a class="xref" href="HwpxIO.Models.FootNoteShapeTypeNumbering.html">FootNoteShapeTypeNumbering</a></dt>
+    <dd></dd>
+    <dt><code>placement</code> <a class="xref" href="HwpxIO.Models.FootNoteShapeTypePlacement.html">FootNoteShapeTypePlacement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetFootNotePr_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetFootNotePr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetFootNotePr_HwpxIO_Models_FootNoteShapeType_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetFootNotePr(HwpxIO.Models.FootNoteShapeType)">
+  SetFootNotePr(FootNoteShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetFootNotePr(FootNoteShapeType footNoteShapeType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>footNoteShapeType</code> <a class="xref" href="HwpxIO.Models.FootNoteShapeType.html">FootNoteShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetGrid_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetGrid*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetGrid_HwpxIO_Models_SectionDefinitionTypeGrid_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetGrid(HwpxIO.Models.SectionDefinitionTypeGrid)">
+  SetGrid(SectionDefinitionTypeGrid)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetGrid(SectionDefinitionTypeGrid grid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>grid</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypeGrid.html">SectionDefinitionTypeGrid</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetGrid_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetGrid*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetGrid_System_Int32_System_Int32_System_Boolean_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetGrid(System.Int32,System.Int32,System.Boolean)">
+  SetGrid(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetGrid(int lineGrid, int charGrid, bool wonggojiFormat = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lineGrid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>charGrid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>wonggojiFormat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetId_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetId*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetId_System_Int32_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetId(System.Int32)">
+  SetId(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetId(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetId_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetId*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetId_System_String_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetId(System.String)">
+  SetId(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetId(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetLineNumberShape_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetLineNumberShape*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetLineNumberShape_HwpxIO_Models_LineNumberShape_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetLineNumberShape(HwpxIO.Models.LineNumberShape)">
+  SetLineNumberShape(LineNumberShape)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetLineNumberShape(LineNumberShape lineNumberShape)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lineNumberShape</code> <a class="xref" href="HwpxIO.Models.LineNumberShape.html">LineNumberShape</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetLineNumberShape_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetLineNumberShape*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetLineNumberShape_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetLineNumberShape(System.Int32,System.Int32,System.Int32,System.Int32)">
+  SetLineNumberShape(int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetLineNumberShape(int restartType, int countBy, int distance, int startNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>restartType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>countBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>distance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>startNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetMasterPageCnt_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetMasterPageCnt*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetMasterPageCnt_System_Int32_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetMasterPageCnt(System.Int32)">
+  SetMasterPageCnt(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetMasterPageCnt(int masterPageCnt)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>masterPageCnt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetMemoShapeIDRef_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetMemoShapeIDRef*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetMemoShapeIDRef_System_String_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetMemoShapeIDRef(System.String)">
+  SetMemoShapeIDRef(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetMemoShapeIDRef(string memoShapeIDRef)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memoShapeIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetOutlineShapeIDRef_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetOutlineShapeIDRef*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetOutlineShapeIDRef_System_String_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetOutlineShapeIDRef(System.String)">
+  SetOutlineShapeIDRef(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetOutlineShapeIDRef(string outlineShapeIDRef)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outlineShapeIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetPagePr_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetPagePr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetPagePr_HwpxIO_Models_SectionDefinitionTypePagePr_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetPagePr(HwpxIO.Models.SectionDefinitionTypePagePr)">
+  SetPagePr(SectionDefinitionTypePagePr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetPagePr(SectionDefinitionTypePagePr pagePr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pagePr</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypePagePr.html">SectionDefinitionTypePagePr</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetPagePr_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetPagePr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetPagePr_HwpxIO_Models_SectionDefinitionTypePagePrMargin_HwpxIO_Enums_SectionDefinitionTypePagePrLandscape_System_Int64_System_Int64_HwpxIO_Enums_SectionDefinitionTypePagePrGutterType_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetPagePr(HwpxIO.Models.SectionDefinitionTypePagePrMargin,HwpxIO.Enums.SectionDefinitionTypePagePrLandscape,System.Int64,System.Int64,HwpxIO.Enums.SectionDefinitionTypePagePrGutterType)">
+  SetPagePr(SectionDefinitionTypePagePrMargin, SectionDefinitionTypePagePrLandscape, long, long, SectionDefinitionTypePagePrGutterType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetPagePr(SectionDefinitionTypePagePrMargin margin, SectionDefinitionTypePagePrLandscape landscape = SectionDefinitionTypePagePrLandscape.NARROWLY, long width = 59528, long height = 84188, SectionDefinitionTypePagePrGutterType gutterType = SectionDefinitionTypePagePrGutterType.LEFT_ONLY)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>margin</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypePagePrMargin.html">SectionDefinitionTypePagePrMargin</a></dt>
+    <dd></dd>
+    <dt><code>landscape</code> <a class="xref" href="HwpxIO.Enums.SectionDefinitionTypePagePrLandscape.html">SectionDefinitionTypePagePrLandscape</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>gutterType</code> <a class="xref" href="HwpxIO.Enums.SectionDefinitionTypePagePrGutterType.html">SectionDefinitionTypePagePrGutterType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetParameterset_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetParameterset*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetParameterset_HwpxIO_Models_ParameterList_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetParameterset(HwpxIO.Models.ParameterList)">
+  SetParameterset(ParameterList)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetParameterset(ParameterList parameterset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameterset</code> <a class="xref" href="HwpxIO.Models.ParameterList.html">ParameterList</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetPresentation_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetPresentation*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetPresentation_HwpxIO_Models_SectionDefinitionTypePresentation_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetPresentation(HwpxIO.Models.SectionDefinitionTypePresentation)">
+  SetPresentation(SectionDefinitionTypePresentation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetPresentation(SectionDefinitionTypePresentation presentation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>presentation</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypePresentation.html">SectionDefinitionTypePresentation</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetSpaceColumns_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetSpaceColumns*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetSpaceColumns_System_Int32_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetSpaceColumns(System.Int32)">
+  SetSpaceColumns(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetSpaceColumns(int spaceColumns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>spaceColumns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetStartNum_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetStartNum*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetStartNum_HwpxIO_Enums_SectionDefinitionTypeStartNumPageStartsOn_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetStartNum(HwpxIO.Enums.SectionDefinitionTypeStartNumPageStartsOn,System.Int32,System.Int32,System.Int32,System.Int32)">
+  SetStartNum(SectionDefinitionTypeStartNumPageStartsOn, int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetStartNum(SectionDefinitionTypeStartNumPageStartsOn pageStartsOn = SectionDefinitionTypeStartNumPageStartsOn.BOTH, int page = 0, int pic = 0, int tbl = 0, int equation = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pageStartsOn</code> <a class="xref" href="HwpxIO.Enums.SectionDefinitionTypeStartNumPageStartsOn.html">SectionDefinitionTypeStartNumPageStartsOn</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>tbl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>equation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetStartNum_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetStartNum*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetStartNum_HwpxIO_Models_SectionDefinitionTypeStartNum_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetStartNum(HwpxIO.Models.SectionDefinitionTypeStartNum)">
+  SetStartNum(SectionDefinitionTypeStartNum)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetStartNum(SectionDefinitionTypeStartNum startNum)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startNum</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypeStartNum.html">SectionDefinitionTypeStartNum</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTabStop_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTabStop*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTabStop_System_Int32_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTabStop(System.Int32)">
+  SetTabStop(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetTabStop(int tabStop)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tabStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTabStopUnit_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTabStopUnit*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTabStopUnit_HwpxIO_Enums_HWPValueUnit_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTabStopUnit(HwpxIO.Enums.HWPValueUnit)">
+  SetTabStopUnit(HWPValueUnit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetTabStopUnit(HWPValueUnit tabStopUnit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tabStopUnit</code> <a class="xref" href="HwpxIO.Enums.HWPValueUnit.html">HWPValueUnit</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTabStopVal_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTabStopVal*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTabStopVal_System_Int32_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTabStopVal(System.Int32)">
+  SetTabStopVal(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetTabStopVal(int tabStopVal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tabStopVal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTextDirection_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTextDirection*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTextDirection_HwpxIO_Enums_SectionDefinitionTypeTextDirection_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTextDirection(HwpxIO.Enums.SectionDefinitionTypeTextDirection)">
+  SetTextDirection(SectionDefinitionTypeTextDirection)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetTextDirection(SectionDefinitionTypeTextDirection textDirection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textDirection</code> <a class="xref" href="HwpxIO.Enums.SectionDefinitionTypeTextDirection.html">SectionDefinitionTypeTextDirection</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTextVerticalWidthHead_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTextVerticalWidthHead*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetTextVerticalWidthHead_System_Boolean_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetTextVerticalWidthHead(System.Boolean)">
+  SetTextVerticalWidthHead(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetTextVerticalWidthHead(bool textVerticalWidthHead)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textVerticalWidthHead</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetVisibility_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetVisibility*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetVisibility_HwpxIO_Models_SectionDefinitionTypeVisibility_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetVisibility(HwpxIO.Models.SectionDefinitionTypeVisibility)">
+  SetVisibility(SectionDefinitionTypeVisibility)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetVisibility(SectionDefinitionTypeVisibility visibility)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>visibility</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionTypeVisibility.html">SectionDefinitionTypeVisibility</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetVisibility_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetVisibility*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_SectionDefinitionTypeBuilder_SetVisibility_System_Boolean_System_Boolean_System_Boolean_HwpxIO_Enums_VisibilityValue_HwpxIO_Enums_VisibilityValue_System_Boolean_System_Boolean_System_Boolean_" data-uid="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.SetVisibility(System.Boolean,System.Boolean,System.Boolean,HwpxIO.Enums.VisibilityValue,HwpxIO.Enums.VisibilityValue,System.Boolean,System.Boolean,System.Boolean)">
+  SetVisibility(bool, bool, bool, VisibilityValue, VisibilityValue, bool, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SectionDefinitionTypeBuilder SetVisibility(bool hideFirstHeader, bool hideFirstFooter, bool hideFirstMasterPage, VisibilityValue border, VisibilityValue fill, bool hideFirstPageNum, bool hideFirstEmptyLine, bool showLineNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hideFirstHeader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>hideFirstFooter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>hideFirstMasterPage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>border</code> <a class="xref" href="HwpxIO.Enums.VisibilityValue.html">VisibilityValue</a></dt>
+    <dd></dd>
+    <dt><code>fill</code> <a class="xref" href="HwpxIO.Enums.VisibilityValue.html">VisibilityValue</a></dt>
+    <dd></dd>
+    <dt><code>hideFirstPageNum</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>hideFirstEmptyLine</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>showLineNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/SectionDefinitionTypeBuilder.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

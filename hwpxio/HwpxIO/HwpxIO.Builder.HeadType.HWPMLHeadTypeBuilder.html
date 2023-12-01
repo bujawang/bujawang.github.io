@@ -1,0 +1,1529 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class HWPMLHeadTypeBuilder
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class HWPMLHeadTypeBuilder
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder.md&amp;value=---%0Auid%3A%20HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder">
+
+
+
+  <h1 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder" class="text-break">
+    Class HWPMLHeadTypeBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Builder.html">Builder</a>.<a class="xref" href="HwpxIO.Builder.HeadType.html">HeadType</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class HWPMLHeadTypeBuilder : HwpxBuilderCore&lt;HWPMLHeadType&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html">HwpxBuilderCore</a>&lt;<a class="xref" href="HwpxIO.Models.HWPMLHeadType.html">HWPMLHeadType</a>&gt;</div>
+      <div><span class="xref">HWPMLHeadTypeBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Build">HwpxBuilderCore&lt;HWPMLHeadType&gt;.Build()</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Value">HwpxBuilderCore&lt;HWPMLHeadType&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_HwpxBuilder">HwpxBuilderCore&lt;HWPMLHeadType&gt;.HwpxBuilder</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder__ctor_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder__ctor_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.#ctor(HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  HWPMLHeadTypeBuilder(IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder(IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder__ctor_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder__ctor_HwpxIO_Models_HWPMLHeadType_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.#ctor(HwpxIO.Models.HWPMLHeadType,HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  HWPMLHeadTypeBuilder(HWPMLHeadType, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder(HWPMLHeadType value, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="HwpxIO.Models.HWPMLHeadType.html">HWPMLHeadType</a></dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddBorderFill_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddBorderFill*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddBorderFill_HwpxIO_Models_BorderFillType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddBorderFill(HwpxIO.Models.BorderFillType)">
+  AddBorderFill(BorderFillType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddBorderFill(BorderFillType borderFillType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>borderFillType</code> <a class="xref" href="HwpxIO.Models.BorderFillType.html">BorderFillType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddBorderFill_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddBorderFill*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddBorderFill_System_Action_HwpxIO_Builder_HeadType_BorderFills_BorderFillTypeBuilder__HwpxIO_Models_BorderFillType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddBorderFill(System.Action{HwpxIO.Builder.HeadType.BorderFills.BorderFillTypeBuilder},HwpxIO.Models.BorderFillType)">
+  AddBorderFill(Action&lt;BorderFillTypeBuilder&gt;, BorderFillType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddBorderFill(Action&lt;BorderFillTypeBuilder&gt; builderAction, BorderFillType borderFillType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.BorderFills.BorderFillTypeBuilder.html">BorderFillTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>borderFillType</code> <a class="xref" href="HwpxIO.Models.BorderFillType.html">BorderFillType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddBullet_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddBullet*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddBullet_HwpxIO_Models_BulletType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddBullet(HwpxIO.Models.BulletType)">
+  AddBullet(BulletType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddBullet(BulletType bulletType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bulletType</code> <a class="xref" href="HwpxIO.Models.BulletType.html">BulletType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddCharShape_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddCharShape*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddCharShape_HwpxIO_Models_CharShapeType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddCharShape(HwpxIO.Models.CharShapeType)">
+  AddCharShape(CharShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddCharShape(CharShapeType charShapeType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>charShapeType</code> <a class="xref" href="HwpxIO.Models.CharShapeType.html">CharShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddCharShape_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddCharShape*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddCharShape_System_Action_HwpxIO_Builder_HeadType_CharProperties_CharShapeTypeBuilder__HwpxIO_Models_CharShapeType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddCharShape(System.Action{HwpxIO.Builder.HeadType.CharProperties.CharShapeTypeBuilder},HwpxIO.Models.CharShapeType)">
+  AddCharShape(Action&lt;CharShapeTypeBuilder&gt;, CharShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddCharShape(Action&lt;CharShapeTypeBuilder&gt; builderAction, CharShapeType charShapeType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.CharProperties.CharShapeTypeBuilder.html">CharShapeTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>charShapeType</code> <a class="xref" href="HwpxIO.Models.CharShapeType.html">CharShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFont_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFont*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFont_HwpxIO_Enums_FontfaceTypeLang_HwpxIO_Models_FontfaceTypeFont_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFont(HwpxIO.Enums.FontfaceTypeLang,HwpxIO.Models.FontfaceTypeFont)">
+  AddFont(FontfaceTypeLang, FontfaceTypeFont)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddFont(FontfaceTypeLang lang, FontfaceTypeFont font)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lang</code> <a class="xref" href="HwpxIO.Enums.FontfaceTypeLang.html">FontfaceTypeLang</a></dt>
+    <dd></dd>
+    <dt><code>font</code> <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html">FontfaceTypeFont</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFont_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFont*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFont_HwpxIO_Enums_FontfaceTypeLang_System_Action_HwpxIO_Builder_HeadType_Fontface_FontBuilder__HwpxIO_Models_FontfaceTypeFont_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFont(HwpxIO.Enums.FontfaceTypeLang,System.Action{HwpxIO.Builder.HeadType.Fontface.FontBuilder},HwpxIO.Models.FontfaceTypeFont)">
+  AddFont(FontfaceTypeLang, Action&lt;FontBuilder&gt;, FontfaceTypeFont)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddFont(FontfaceTypeLang lang, Action&lt;FontBuilder&gt; builderAction, FontfaceTypeFont font = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lang</code> <a class="xref" href="HwpxIO.Enums.FontfaceTypeLang.html">FontfaceTypeLang</a></dt>
+    <dd></dd>
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontBuilder.html">FontBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>font</code> <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html">FontfaceTypeFont</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFontface_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFontface*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFontface_HwpxIO_Models_FontfaceType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFontface(HwpxIO.Models.FontfaceType)">
+  AddFontface(FontfaceType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddFontface(FontfaceType fontface)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fontface</code> <a class="xref" href="HwpxIO.Models.FontfaceType.html">FontfaceType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFontface_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFontface*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddFontface_System_Action_HwpxIO_Builder_HeadType_Fontface_FontfaceTypeBuilder__HwpxIO_Models_FontfaceType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddFontface(System.Action{HwpxIO.Builder.HeadType.Fontface.FontfaceTypeBuilder},HwpxIO.Models.FontfaceType)">
+  AddFontface(Action&lt;FontfaceTypeBuilder&gt;, FontfaceType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddFontface(Action&lt;FontfaceTypeBuilder&gt; builderAction, FontfaceType fontface = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontfaceTypeBuilder.html">FontfaceTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>fontface</code> <a class="xref" href="HwpxIO.Models.FontfaceType.html">FontfaceType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddForbiddenWord_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddForbiddenWord*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddForbiddenWord_System_String_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddForbiddenWord(System.String)">
+  AddForbiddenWord(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddForbiddenWord(string word)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>word</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddMemoSharp_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddMemoSharp*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddMemoSharp_HwpxIO_Models_MemoShapeType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddMemoSharp(HwpxIO.Models.MemoShapeType)">
+  AddMemoSharp(MemoShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddMemoSharp(MemoShapeType memoShapeType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memoShapeType</code> <a class="xref" href="HwpxIO.Models.MemoShapeType.html">MemoShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddMemoSharp_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddMemoSharp*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddMemoSharp_System_Action_HwpxIO_Builder_HeadType_MemoProperties_MemoShapeTypeBuilder__HwpxIO_Models_MemoShapeType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddMemoSharp(System.Action{HwpxIO.Builder.HeadType.MemoProperties.MemoShapeTypeBuilder},HwpxIO.Models.MemoShapeType)">
+  AddMemoSharp(Action&lt;MemoShapeTypeBuilder&gt;, MemoShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddMemoSharp(Action&lt;MemoShapeTypeBuilder&gt; builderAction, MemoShapeType memoShapeType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.MemoProperties.MemoShapeTypeBuilder.html">MemoShapeTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>memoShapeType</code> <a class="xref" href="HwpxIO.Models.MemoShapeType.html">MemoShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddNumbering_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddNumbering*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddNumbering_HwpxIO_Models_NumberingType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddNumbering(HwpxIO.Models.NumberingType)">
+  AddNumbering(NumberingType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddNumbering(NumberingType numberingType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>numberingType</code> <a class="xref" href="HwpxIO.Models.NumberingType.html">NumberingType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddNumbering_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddNumbering*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddNumbering_System_Action_HwpxIO_Builder_HeadType_Numberings_NumberingTypeBuilder__HwpxIO_Models_NumberingType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddNumbering(System.Action{HwpxIO.Builder.HeadType.Numberings.NumberingTypeBuilder},HwpxIO.Models.NumberingType)">
+  AddNumbering(Action&lt;NumberingTypeBuilder&gt;, NumberingType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddNumbering(Action&lt;NumberingTypeBuilder&gt; builderAction, NumberingType numberingType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Numberings.NumberingTypeBuilder.html">NumberingTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>numberingType</code> <a class="xref" href="HwpxIO.Models.NumberingType.html">NumberingType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddParaShape_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddParaShape*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddParaShape_HwpxIO_Models_ParaShapeType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddParaShape(HwpxIO.Models.ParaShapeType)">
+  AddParaShape(ParaShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddParaShape(ParaShapeType paraShapeType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>paraShapeType</code> <a class="xref" href="HwpxIO.Models.ParaShapeType.html">ParaShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddParaShape_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddParaShape*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddParaShape_System_Action_HwpxIO_Builder_HeadType_ParaProperties_ParaShapeTypeBuilder__HwpxIO_Models_ParaShapeType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddParaShape(System.Action{HwpxIO.Builder.HeadType.ParaProperties.ParaShapeTypeBuilder},HwpxIO.Models.ParaShapeType)">
+  AddParaShape(Action&lt;ParaShapeTypeBuilder&gt;, ParaShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddParaShape(Action&lt;ParaShapeTypeBuilder&gt; builderAction, ParaShapeType paraShapeType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.ParaProperties.ParaShapeTypeBuilder.html">ParaShapeTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>paraShapeType</code> <a class="xref" href="HwpxIO.Models.ParaShapeType.html">ParaShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddStyle_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddStyle*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddStyle_HwpxIO_Models_StyleType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddStyle(HwpxIO.Models.StyleType)">
+  AddStyle(StyleType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddStyle(StyleType styleType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>styleType</code> <a class="xref" href="HwpxIO.Models.StyleType.html">StyleType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddStyle_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddStyle*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddStyle_System_Action_HwpxIO_Builder_HeadType_Styles_StyleTypeBuilder__HwpxIO_Models_StyleType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddStyle(System.Action{HwpxIO.Builder.HeadType.Styles.StyleTypeBuilder},HwpxIO.Models.StyleType)">
+  AddStyle(Action&lt;StyleTypeBuilder&gt;, StyleType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddStyle(Action&lt;StyleTypeBuilder&gt; builderAction, StyleType styleType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Styles.StyleTypeBuilder.html">StyleTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>styleType</code> <a class="xref" href="HwpxIO.Models.StyleType.html">StyleType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTabProperty_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTabProperty*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTabProperty_HwpxIO_Models_TabDefType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTabProperty(HwpxIO.Models.TabDefType)">
+  AddTabProperty(TabDefType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddTabProperty(TabDefType tabDefType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tabDefType</code> <a class="xref" href="HwpxIO.Models.TabDefType.html">TabDefType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTabProperty_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTabProperty*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTabProperty_System_Action_HwpxIO_Builder_HeadType_TabProperties_TabDefTypeBuilder__HwpxIO_Models_TabDefType_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTabProperty(System.Action{HwpxIO.Builder.HeadType.TabProperties.TabDefTypeBuilder},HwpxIO.Models.TabDefType)">
+  AddTabProperty(Action&lt;TabDefTypeBuilder&gt;, TabDefType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddTabProperty(Action&lt;TabDefTypeBuilder&gt; builderAction, TabDefType tabDefType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.TabProperties.TabDefTypeBuilder.html">TabDefTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>tabDefType</code> <a class="xref" href="HwpxIO.Models.TabDefType.html">TabDefType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChange_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChange*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChange_HwpxIO_Models_TrackChange_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChange(HwpxIO.Models.TrackChange)">
+  AddTrackChange(TrackChange)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddTrackChange(TrackChange trackChange)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>trackChange</code> <a class="xref" href="HwpxIO.Models.TrackChange.html">TrackChange</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChange_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChange*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChange_System_Action_HwpxIO_Builder_HeadType_TrackChanges_TrackChangeBuilder__HwpxIO_Models_TrackChange_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChange(System.Action{HwpxIO.Builder.HeadType.TrackChanges.TrackChangeBuilder},HwpxIO.Models.TrackChange)">
+  AddTrackChange(Action&lt;TrackChangeBuilder&gt;, TrackChange)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddTrackChange(Action&lt;TrackChangeBuilder&gt; builderAction, TrackChange trackChange = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.TrackChanges.TrackChangeBuilder.html">TrackChangeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>trackChange</code> <a class="xref" href="HwpxIO.Models.TrackChange.html">TrackChange</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChangeAuthor_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChangeAuthor*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChangeAuthor_HwpxIO_Models_TrackChangeAuthor_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChangeAuthor(HwpxIO.Models.TrackChangeAuthor)">
+  AddTrackChangeAuthor(TrackChangeAuthor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L407"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddTrackChangeAuthor(TrackChangeAuthor trackChangeAuthor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>trackChangeAuthor</code> <a class="xref" href="HwpxIO.Models.TrackChangeAuthor.html">TrackChangeAuthor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChangeAuthor_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChangeAuthor*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_AddTrackChangeAuthor_System_Action_HwpxIO_Builder_HeadType_TrackChangeAuthors_TrackChangeAuthorBuilder__HwpxIO_Models_TrackChangeAuthor_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.AddTrackChangeAuthor(System.Action{HwpxIO.Builder.HeadType.TrackChangeAuthors.TrackChangeAuthorBuilder},HwpxIO.Models.TrackChangeAuthor)">
+  AddTrackChangeAuthor(Action&lt;TrackChangeAuthorBuilder&gt;, TrackChangeAuthor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L421"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder AddTrackChangeAuthor(Action&lt;TrackChangeAuthorBuilder&gt; builderAction, TrackChangeAuthor trackChangeAuthor = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.TrackChangeAuthors.TrackChangeAuthorBuilder.html">TrackChangeAuthorBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>trackChangeAuthor</code> <a class="xref" href="HwpxIO.Models.TrackChangeAuthor.html">TrackChangeAuthor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetBeginNum_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetBeginNum*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetBeginNum_HwpxIO_Models_HWPMLHeadTypeBeginNum_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetBeginNum(HwpxIO.Models.HWPMLHeadTypeBeginNum)">
+  SetBeginNum(HWPMLHeadTypeBeginNum)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문서 내에서 사용되는 번호의 시작값을 설정합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetBeginNum(HWPMLHeadTypeBeginNum beginNum)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>beginNum</code> <a class="xref" href="HwpxIO.Models.HWPMLHeadTypeBeginNum.html">HWPMLHeadTypeBeginNum</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetBeginNum_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetBeginNum*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetBeginNum_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetBeginNum(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+  SetBeginNum(int, int, int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문서 내에서 사용되는 번호의 시작값을 설정합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetBeginNum(int page = 1, int footnote = 1, int endnote = 1, int pic = 1, int tbl = 1, int equation = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>페이지 시작 번호</p>
+</dd>
+    <dt><code>footnote</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>각주 시작 번호</p>
+</dd>
+    <dt><code>endnote</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>미주 시작 번호</p>
+</dd>
+    <dt><code>pic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>그림 시작 번호</p>
+</dd>
+    <dt><code>tbl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>표 시작 번호</p>
+</dd>
+    <dt><code>equation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>수식 시작 번호</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetCompatibleDocumentLayoutCompatibility_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetCompatibleDocumentLayoutCompatibility*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetCompatibleDocumentLayoutCompatibility_HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetCompatibleDocumentLayoutCompatibility(HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility)">
+  SetCompatibleDocumentLayoutCompatibility(CompatibleDocumentTypeLayoutCompatibility)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetCompatibleDocumentLayoutCompatibility(CompatibleDocumentTypeLayoutCompatibility layoutCompatibility)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>layoutCompatibility</code> <a class="xref" href="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.html">CompatibleDocumentTypeLayoutCompatibility</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetCompatibleDocumentTypeTargetProgram_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetCompatibleDocumentTypeTargetProgram*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetCompatibleDocumentTypeTargetProgram_HwpxIO_Enums_CompatibleDocumentTypeTargetProgram_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetCompatibleDocumentTypeTargetProgram(HwpxIO.Enums.CompatibleDocumentTypeTargetProgram)">
+  SetCompatibleDocumentTypeTargetProgram(CompatibleDocumentTypeTargetProgram)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetCompatibleDocumentTypeTargetProgram(CompatibleDocumentTypeTargetProgram targetProgram)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetProgram</code> <a class="xref" href="HwpxIO.Enums.CompatibleDocumentTypeTargetProgram.html">CompatibleDocumentTypeTargetProgram</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetDocOption_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetDocOption*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetDocOption_HwpxIO_Models_DocOption_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetDocOption(HwpxIO.Models.DocOption)">
+  SetDocOption(DocOption)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L469"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetDocOption(DocOption docOption)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>docOption</code> <a class="xref" href="HwpxIO.Models.DocOption.html">DocOption</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetSectionCount_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetSectionCount*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetSectionCount_System_Int32_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetSectionCount(System.Int32)">
+  SetSectionCount(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetSectionCount(int secCnt)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>secCnt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetTrackchangeConfig_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetTrackchangeConfig*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetTrackchangeConfig_HwpxIO_Models_HWPMLHeadTypeTrackchageConfig_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetTrackchangeConfig(HwpxIO.Models.HWPMLHeadTypeTrackchageConfig)">
+  SetTrackchangeConfig(HWPMLHeadTypeTrackchageConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L480"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetTrackchangeConfig(HWPMLHeadTypeTrackchageConfig trackchangeConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>trackchangeConfig</code> <a class="xref" href="HwpxIO.Models.HWPMLHeadTypeTrackchageConfig.html">HWPMLHeadTypeTrackchageConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetVersion_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetVersion*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_SetVersion_System_String_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.SetVersion(System.String)">
+  SetVersion(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L490"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder SetVersion(string version = &quot;1.0&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>version</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_UpdateFontface_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.UpdateFontface*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_UpdateFontface_HwpxIO_Enums_FontfaceTypeLang_System_Action_HwpxIO_Builder_HeadType_Fontface_FontfaceTypeBuilder__" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.UpdateFontface(HwpxIO.Enums.FontfaceTypeLang,System.Action{HwpxIO.Builder.HeadType.Fontface.FontfaceTypeBuilder})">
+  UpdateFontface(FontfaceTypeLang, Action&lt;FontfaceTypeBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder UpdateFontface(FontfaceTypeLang lang, Action&lt;FontfaceTypeBuilder&gt; builderAction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lang</code> <a class="xref" href="HwpxIO.Enums.FontfaceTypeLang.html">FontfaceTypeLang</a></dt>
+    <dd></dd>
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontfaceTypeBuilder.html">FontfaceTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_UpdateSectionCount_" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.UpdateSectionCount*"></a>
+
+  <h3 id="HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder_UpdateSectionCount" data-uid="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.UpdateSectionCount">
+  UpdateSectionCount()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L507"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadTypeBuilder UpdateSectionCount()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HeadType/HWPMLHeadTypeBuilder.cs/#L23" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

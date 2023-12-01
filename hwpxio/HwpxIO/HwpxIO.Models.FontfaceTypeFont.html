@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FontfaceTypeFont
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FontfaceTypeFont
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Models_FontfaceTypeFont.md&amp;value=---%0Auid%3A%20HwpxIO.Models.FontfaceTypeFont%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Models.FontfaceTypeFont">
+
+
+
+  <h1 id="HwpxIO_Models_FontfaceTypeFont" data-uid="HwpxIO.Models.FontfaceTypeFont" class="text-break">
+    Class FontfaceTypeFont
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Models.html">Models</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>HWP 문서 스키마는 내장 글꼴을 지원한다. 글꼴이 내장될 경우, 글꼴 데이터 파일은 다른
+바이너리 파일과 마찬가지로 컨테이너 내에 바이너리 형태로 포함이 되고 manifest에 해당 정보를 기록한다.
+<a class="xref" href="HwpxIO.Models.FontfaceType.html#HwpxIO_Models_FontfaceType_Font">Font</a> 엘리먼트에서는 manifest에 정의된 정보를 참조해서 내장된 글꼴에 접근하게 된다.
+속성 <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html#HwpxIO_Models_FontfaceTypeFont_IsEmbedded">IsEmbedded</a>의 값이 참(<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>)인 경우, 반드시 컨테이너 내에 글꼴을 내장하고
+속성 <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html#HwpxIO_Models_FontfaceTypeFont_BinaryItemIDRef">BinaryItemIDRef</a>의 값이 유효한 값이어야 한다.만약 속성 <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html#HwpxIO_Models_FontfaceTypeFont_IsEmbedded">IsEmbedded</a> 값이 참(<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>)인데
+속성 <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html#HwpxIO_Models_FontfaceTypeFont_BinaryItemIDRef">BinaryItemIDRef</a>의 값이 유효하지 않다면 애플리케이션에서는 이를 오류 상황으로 인식해야 한다.
+속성 <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html#HwpxIO_Models_FontfaceTypeFont_IsEmbedded">IsEmbedded</a>의 값이 거짓(<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>)인 경우, 애플리케이션은 사용자 시스템에 내장된 글꼴을 사용해야 한다.
+이 경우 속성 <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html#HwpxIO_Models_FontfaceTypeFont_BinaryItemIDRef">BinaryItemIDRef</a>은 사용되지 않는다.속성 <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html#HwpxIO_Models_FontfaceTypeFont_IsEmbedded">IsEmbedded</a>의 값이 거짓(<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>)인데
+사용자 시스템 내에 정의된 글꼴이 없는 경우 애플리케이션은 이를 오류 상황으로 인식해야 한다
+정의된 글꼴이 없는 오류 상황에서 애플리케이션은 대체 글꼴을 먼저 사용해야 한다.
+대체 글꼴마저 없는 경우에 대한 처리 방법은 이 표준에서는 정의하지 않지만, 시스템 기본 글꼴을 사용하는 것을 권고한다.
+이 처리 방법은 애플리케이션마다 다를 수 있으므로, 콘텐츠 제작자는 이를 인지하고서 콘텐츠를 제작하여야 한다</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class FontfaceTypeFont : IHwpxObject, IEquatable&lt;FontfaceTypeFont&gt;, IBuilderableModel&lt;FontBuilder&gt;, ICopyToBuilderableModel&lt;FontBuilder&gt;, ICloneable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FontfaceTypeFont</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Models.Contracts.IHwpxObject.html">IHwpxObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html">FontfaceTypeFont</a>&gt;</div>
+      <div><a class="xref" href="HwpxIO.Builder.IBuilderableModel-1.html">IBuilderableModel</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontBuilder.html">FontBuilder</a>&gt;</div>
+      <div><a class="xref" href="HwpxIO.Builder.ICopyToBuilderableModel-1.html">ICopyToBuilderableModel</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontBuilder.html">FontBuilder</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_ItemCountUpdate_HwpxIO_Models_Contracts_IHwpxObject_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentExtensions.ItemCountUpdate(IHwpxObject, IHwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Models_FontfaceTypeFont_HwpxIO_Enums_FontfaceTypeLang_HwpxIO_Builder_Contracts_IHwpxBuilder_">BuilderExtensions.GetOrAddIfMissing(FontfaceTypeFont, FontfaceTypeLang, IHwpxBuilder)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Models_FontfaceTypeFont_HwpxIO_Enums_FontfaceTypeLang_HwpxIO_HwpxDocument_">BuilderExtensions.GetOrAddIfMissing(FontfaceTypeFont, FontfaceTypeLang, HwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_SerializeToXmlElements__1___0_">HwpxDocumentExtensions.SerializeToXmlElements&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont__ctor_" data-uid="HwpxIO.Models.FontfaceTypeFont.#ctor*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont__ctor" data-uid="HwpxIO.Models.FontfaceTypeFont.#ctor">
+  FontfaceTypeFont()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontfaceTypeFont()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_BinaryItemIDRef_" data-uid="HwpxIO.Models.FontfaceTypeFont.BinaryItemIDRef*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_BinaryItemIDRef" data-uid="HwpxIO.Models.FontfaceTypeFont.BinaryItemIDRef">
+  BinaryItemIDRef
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글꼴 파일이 문서 컨테이너 내에 포함된 경우 해당 글꼴 파일을 지정하기 위한 ID 참조 값</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BinaryItemIDRef { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_Face_" data-uid="HwpxIO.Models.FontfaceTypeFont.Face*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_Face" data-uid="HwpxIO.Models.FontfaceTypeFont.Face">
+  Face
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글꼴의 이름</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Face { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_Id_" data-uid="HwpxIO.Models.FontfaceTypeFont.Id*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_Id" data-uid="HwpxIO.Models.FontfaceTypeFont.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글꼴을 식별하기 위한 아이디</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_IsEmbedded_" data-uid="HwpxIO.Models.FontfaceTypeFont.IsEmbedded*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_IsEmbedded" data-uid="HwpxIO.Models.FontfaceTypeFont.IsEmbedded">
+  IsEmbedded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글꼴 파일이 문서 컨테이너 내에 포함되었는지 여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEmbedded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_SubstFont_" data-uid="HwpxIO.Models.FontfaceTypeFont.SubstFont*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_SubstFont" data-uid="HwpxIO.Models.FontfaceTypeFont.SubstFont">
+  SubstFont
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>대체 글꼴</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontfaceTypeFontSubstFont SubstFont { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.FontfaceTypeFontSubstFont.html">FontfaceTypeFontSubstFont</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_Type_" data-uid="HwpxIO.Models.FontfaceTypeFont.Type*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_Type" data-uid="HwpxIO.Models.FontfaceTypeFont.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글꼴의 유형(rep : 대표글꼴, ttf : 트루타입글꼴, hft : 한/글 전용 글꼴)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontfaceTypeFontType Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.FontfaceTypeFontType.html">FontfaceTypeFontType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_TypeInfo_" data-uid="HwpxIO.Models.FontfaceTypeFont.TypeInfo*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_TypeInfo" data-uid="HwpxIO.Models.FontfaceTypeFont.TypeInfo">
+  TypeInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글꼴 유형 정보</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontfaceTypeFontTypeInfo TypeInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.FontfaceTypeFontTypeInfo.html">FontfaceTypeFontTypeInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_Clone_" data-uid="HwpxIO.Models.FontfaceTypeFont.Clone*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_Clone" data-uid="HwpxIO.Models.FontfaceTypeFont.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_CopyToBuilder_" data-uid="HwpxIO.Models.FontfaceTypeFont.CopyToBuilder*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_CopyToBuilder_System_Action_HwpxIO_Builder_HeadType_Fontface_FontBuilder__HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Models.FontfaceTypeFont.CopyToBuilder(System.Action{HwpxIO.Builder.HeadType.Fontface.FontBuilder},HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  CopyToBuilder(Action&lt;FontBuilder&gt;, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontBuilder CopyToBuilder(Action&lt;FontBuilder&gt; copyToBuilderAction = null, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>copyToBuilderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontBuilder.html">FontBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontBuilder.html">FontBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_Equals_" data-uid="HwpxIO.Models.FontfaceTypeFont.Equals*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_Equals_HwpxIO_Models_FontfaceTypeFont_" data-uid="HwpxIO.Models.FontfaceTypeFont.Equals(HwpxIO.Models.FontfaceTypeFont)">
+  Equals(FontfaceTypeFont)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(FontfaceTypeFont other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html">FontfaceTypeFont</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_FontfaceTypeFont_UpdateBuilder_" data-uid="HwpxIO.Models.FontfaceTypeFont.UpdateBuilder*"></a>
+
+  <h3 id="HwpxIO_Models_FontfaceTypeFont_UpdateBuilder_System_Action_HwpxIO_Builder_HeadType_Fontface_FontBuilder__HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Models.FontfaceTypeFont.UpdateBuilder(System.Action{HwpxIO.Builder.HeadType.Fontface.FontBuilder},HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  UpdateBuilder(Action&lt;FontBuilder&gt;, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontBuilder UpdateBuilder(Action&lt;FontBuilder&gt; updateBuilderAction = null, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updateBuilderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontBuilder.html">FontBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HeadType.Fontface.FontBuilder.html">FontBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/FontfaceTypeFont.cs/#L29" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

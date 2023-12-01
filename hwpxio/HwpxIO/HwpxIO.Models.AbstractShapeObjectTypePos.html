@@ -1,0 +1,635 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AbstractShapeObjectTypePos
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AbstractShapeObjectTypePos
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Models_AbstractShapeObjectTypePos.md&amp;value=---%0Auid%3A%20HwpxIO.Models.AbstractShapeObjectTypePos%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Models.AbstractShapeObjectTypePos">
+
+
+
+  <h1 id="HwpxIO_Models_AbstractShapeObjectTypePos" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos" class="text-break">
+    Class AbstractShapeObjectTypePos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Models.html">Models</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>객체들의 위치 정보 및 객체들이 문서에서 차지하는 영역에 대한 정보를 가지고 있는 요소이다.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class AbstractShapeObjectTypePos : Switchable, IHwpxObject, ICloneable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HwpxIO.Models.Compatibility.Switchable.html">Switchable</a></div>
+      <div><span class="xref">AbstractShapeObjectTypePos</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Models.Contracts.IHwpxObject.html">IHwpxObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HwpxIO.Models.Compatibility.Switchable.html#HwpxIO_Models_Compatibility_Switchable_Switch">Switchable.Switch</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_SerializeToXmlElements__1___0_">HwpxDocumentExtensions.SerializeToXmlElements&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.SwitchableExtensions.html#HwpxIO_Extensions_SwitchableExtensions_GetSwitchableValue__1___0_System_Collections_Generic_IEnumerable_System_String__System_Boolean_">SwitchableExtensions.GetSwitchableValue&lt;T&gt;(T, IEnumerable&lt;string&gt;, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_ItemCountUpdate_HwpxIO_Models_Contracts_IHwpxObject_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentExtensions.ItemCountUpdate(IHwpxObject, IHwpxDocument)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos__ctor_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.#ctor*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos__ctor" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.#ctor">
+  AbstractShapeObjectTypePos()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbstractShapeObjectTypePos()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_AffectLSpacing_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.AffectLSpacing*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_AffectLSpacing" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.AffectLSpacing">
+  AffectLSpacing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄 간격에 영향을 줄지 여부<br>
+<a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_TreatAsChar">TreatAsChar</a> 속성이 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>일 때에만 사용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AffectLSpacing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_AllowOverlap_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.AllowOverlap*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_AllowOverlap" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.AllowOverlap">
+  AllowOverlap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>다른 오브젝트와 겹치는 것을 허용할지 여부 <br>
+<a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_TreatAsChar">TreatAsChar</a> 속성이 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>일 때에만 사용 <br>
+<a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_FlowWithText">FlowWithText</a> 속성이 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>이면 무조건 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>로 간주함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowOverlap { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_FlowWithText_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.FlowWithText*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_FlowWithText" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.FlowWithText">
+  FlowWithText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>오브젝트의 세로 위치를 본문 영역으로 제한할지 여부 <br>
+하위 요소 <a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_VertRelTo">VertRelTo</a> 의 속성이 <a class="xref" href="HwpxIO.Enums.AbstractShapeObjectTypePosVertRelTo.html#HwpxIO_Enums_AbstractShapeObjectTypePosVertRelTo_PARA">PARA</a> 일때만 사용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FlowWithText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_HoldAnchorAndSO_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HoldAnchorAndSO*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_HoldAnchorAndSO" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HoldAnchorAndSO">
+  HoldAnchorAndSO
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>객체와 조판부호를 항상 같은 쪽에 놓을지 여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HoldAnchorAndSO { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_HorzAlign_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HorzAlign*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_HorzAlign" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HorzAlign">
+  HorzAlign
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_HorzRelTo">HorzRelTo</a>에 대한 상대적인 배열 방식</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbstractShapeObjectTypePosHorzAlign HorzAlign { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.AbstractShapeObjectTypePosHorzAlign.html">AbstractShapeObjectTypePosHorzAlign</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_HorzOffset_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HorzOffset*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_HorzOffset" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HorzOffset">
+  HorzOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_HorzRelTo">HorzRelTo</a>와 <a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_HorzAlign">HorzAlign</a>을 기준점으로 한 상대적인 오프셋 값. 단위는 HWPUNIT</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long HorzOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_HorzRelTo_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HorzRelTo*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_HorzRelTo" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.HorzRelTo">
+  HorzRelTo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>가로 위치의 기준 <br>
+<a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_TreatAsChar">TreatAsChar</a> 속성이 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>일 때에만 사용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbstractShapeObjectTypePosHorzRelTo HorzRelTo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.AbstractShapeObjectTypePosHorzRelTo.html">AbstractShapeObjectTypePosHorzRelTo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_TreatAsChar_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.TreatAsChar*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_TreatAsChar" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.TreatAsChar">
+  TreatAsChar
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글자처럼 취급 여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TreatAsChar { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_VertAlign_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.VertAlign*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_VertAlign" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.VertAlign">
+  VertAlign
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_VertRelTo">VertRelTo</a>에 대한 상대적인 배열 방식 <br>
+<a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_VertRelTo">VertRelTo</a>의 값에 따라 가능한 범위가 제한됨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbstractShapeObjectTypePosVertAlign VertAlign { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.AbstractShapeObjectTypePosVertAlign.html">AbstractShapeObjectTypePosVertAlign</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_VertOffset_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.VertOffset*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_VertOffset" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.VertOffset">
+  VertOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_VertRelTo">VertRelTo</a>와 <a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_VertAlign">VertAlign</a>을 기준점으로 한 상대적인 오프셋 값. 단위는 HWPUNIT</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long VertOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_VertRelTo_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.VertRelTo*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_VertRelTo" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.VertRelTo">
+  VertRelTo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>세로 위치의 기준 <br>
+<a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html#HwpxIO_Models_AbstractShapeObjectTypePos_TreatAsChar">TreatAsChar</a> 속성이 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>일 때에만 사용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbstractShapeObjectTypePosVertRelTo VertRelTo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.AbstractShapeObjectTypePosVertRelTo.html">AbstractShapeObjectTypePosVertRelTo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Models_AbstractShapeObjectTypePos_Clone_" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.Clone*"></a>
+
+  <h3 id="HwpxIO_Models_AbstractShapeObjectTypePos_Clone" data-uid="HwpxIO.Models.AbstractShapeObjectTypePos.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/AbstractShapeObjectTypePos.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

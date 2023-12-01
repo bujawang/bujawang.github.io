@@ -1,0 +1,798 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PTypeRunTBuilder
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PTypeRunTBuilder
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder.md&amp;value=---%0Auid%3A%20HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder">
+
+
+
+  <h1 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder" class="text-break">
+    Class PTypeRunTBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Builder.html">Builder</a>.<a class="xref" href="HwpxIO.Builder.Section.html">Section</a>.<a class="xref" href="HwpxIO.Builder.Section.Run.html">Run</a>.<a class="xref" href="HwpxIO.Builder.Section.Run.T.html">T</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PTypeRunTBuilder : HwpxSwitchableBuilder&lt;PTypeRunT&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html">HwpxBuilderCore</a>&lt;<a class="xref" href="HwpxIO.Models.PTypeRunT.html">PTypeRunT</a>&gt;</div>
+      <div><a class="xref" href="HwpxIO.Builder.Abstract.HwpxSwitchableBuilder-1.html">HwpxSwitchableBuilder</a>&lt;<a class="xref" href="HwpxIO.Models.PTypeRunT.html">PTypeRunT</a>&gt;</div>
+      <div><span class="xref">PTypeRunTBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxSwitchableBuilder-1.html#HwpxIO_Builder_Abstract_HwpxSwitchableBuilder_1_AddSwitch_System_Action_HwpxIO_Builder_Switchable_SwitchBuilder__0___">HwpxSwitchableBuilder&lt;PTypeRunT&gt;.AddSwitch(Action&lt;SwitchBuilder&lt;PTypeRunT&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxSwitchableBuilder-1.html#HwpxIO_Builder_Abstract_HwpxSwitchableBuilder_1_AddSwitch_HwpxIO_Models_Compatibility_Switch_">HwpxSwitchableBuilder&lt;PTypeRunT&gt;.AddSwitch(Switch)</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Build">HwpxBuilderCore&lt;PTypeRunT&gt;.Build()</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Value">HwpxBuilderCore&lt;PTypeRunT&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_HwpxBuilder">HwpxBuilderCore&lt;PTypeRunT&gt;.HwpxBuilder</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder__ctor_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder__ctor_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.#ctor(HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  PTypeRunTBuilder(IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder(IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder__ctor_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder__ctor_HwpxIO_Models_PTypeRunT_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.#ctor(HwpxIO.Models.PTypeRunT,HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  PTypeRunTBuilder(PTypeRunT, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder(PTypeRunT value, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="HwpxIO.Models.PTypeRunT.html">PTypeRunT</a></dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddDeleteBegin_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddDeleteBegin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddDeleteBegin_HwpxIO_Models_DeleteBegin_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddDeleteBegin(HwpxIO.Models.DeleteBegin)">
+  AddDeleteBegin(DeleteBegin)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>변경 추적 삭제 시작지점</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddDeleteBegin(DeleteBegin deleteBegin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deleteBegin</code> <a class="xref" href="HwpxIO.Models.DeleteBegin.html">DeleteBegin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddDeleteEnd_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddDeleteEnd*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddDeleteEnd_HwpxIO_Models_DeleteEnd_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddDeleteEnd(HwpxIO.Models.DeleteEnd)">
+  AddDeleteEnd(DeleteEnd)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>변경 추적 삭제 끝지점</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddDeleteEnd(DeleteEnd deleteEnd)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deleteEnd</code> <a class="xref" href="HwpxIO.Models.DeleteEnd.html">DeleteEnd</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddFwSpace_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddFwSpace*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddFwSpace" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddFwSpace">
+  AddFwSpace()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>고정폭 빈칸</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddFwSpace()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddHyphen_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddHyphen*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddHyphen" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddHyphen">
+  AddHyphen()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>하이픈</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddHyphen()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddInsertBegin_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddInsertBegin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddInsertBegin_HwpxIO_Models_InsertBegin_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddInsertBegin(HwpxIO.Models.InsertBegin)">
+  AddInsertBegin(InsertBegin)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>변경 추적 삽입 시작지점</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddInsertBegin(InsertBegin insertBegin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>insertBegin</code> <a class="xref" href="HwpxIO.Models.InsertBegin.html">InsertBegin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddInsertEnd_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddInsertEnd*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddInsertEnd_HwpxIO_Models_InsertEnd_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddInsertEnd(HwpxIO.Models.InsertEnd)">
+  AddInsertEnd(InsertEnd)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>변경 추적 삽입 끝지점</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddInsertEnd(InsertEnd insertEnd)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>insertEnd</code> <a class="xref" href="HwpxIO.Models.InsertEnd.html">InsertEnd</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddLineBreak_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddLineBreak*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddLineBreak" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddLineBreak">
+  AddLineBreak()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>강제 줄나눔</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddLineBreak()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddMarkpenBegin_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddMarkpenBegin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddMarkpenBegin_HwpxIO_Models_PTypeRunTMarkpenBegin_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddMarkpenBegin(HwpxIO.Models.PTypeRunTMarkpenBegin)">
+  AddMarkpenBegin(PTypeRunTMarkpenBegin)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>형광펜 색상 정보를 담고 있는 요소이다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddMarkpenBegin(PTypeRunTMarkpenBegin markpenBegin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>markpenBegin</code> <a class="xref" href="HwpxIO.Models.PTypeRunTMarkpenBegin.html">PTypeRunTMarkpenBegin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddMarkpenEnd_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddMarkpenEnd*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddMarkpenEnd" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddMarkpenEnd">
+  AddMarkpenEnd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>형광펜 끝</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddMarkpenEnd()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddNbSpace_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddNbSpace*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddNbSpace" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddNbSpace">
+  AddNbSpace()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>묶음 빈칸</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddNbSpace()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddTab_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddTab*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddTab_HwpxIO_Models_PTypeRunTTab_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddTab(HwpxIO.Models.PTypeRunTTab)">
+  AddTab(PTypeRunTTab)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>탭</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddTab(PTypeRunTTab tab)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tab</code> <a class="xref" href="HwpxIO.Models.PTypeRunTTab.html">PTypeRunTTab</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddText_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddText*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddText_System_String_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddText(System.String)">
+  AddText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>텍스트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddTitleMark_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddTitleMark*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_AddTitleMark_HwpxIO_Models_PTypeRunTTitleMark_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.AddTitleMark(HwpxIO.Models.PTypeRunTTitleMark)">
+  AddTitleMark(PTypeRunTTitleMark)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder AddTitleMark(PTypeRunTTitleMark titleMark)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>titleMark</code> <a class="xref" href="HwpxIO.Models.PTypeRunTTitleMark.html">PTypeRunTTitleMark</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_SetAttributes_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.SetAttributes*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_SetAttributes_System_String_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.SetAttributes(System.String)">
+  SetAttributes(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder SetAttributes(string charStyleIDRef = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>charStyleIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_SetCharStyleIDRef_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.SetCharStyleIDRef*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder_SetCharStyleIDRef_System_String_" data-uid="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.SetCharStyleIDRef(System.String)">
+  SetCharStyleIDRef(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunTBuilder SetCharStyleIDRef(string charStyleIDRef)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>charStyleIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/T/PTypeRunTBuilder.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

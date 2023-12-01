@@ -1,0 +1,1440 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class HwpxBuilder
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class HwpxBuilder
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Builder_HwpxBuilder.md&amp;value=---%0Auid%3A%20HwpxIO.Builder.HwpxBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Builder.HwpxBuilder">
+
+
+
+  <h1 id="HwpxIO_Builder_HwpxBuilder" data-uid="HwpxIO.Builder.HwpxBuilder" class="text-break">
+    Class HwpxBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Builder.html">Builder</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class HwpxBuilder : HwpxBuilderCore&lt;HwpxDocument&gt;, IHwpxBuilder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html">HwpxBuilderCore</a>&lt;<a class="xref" href="HwpxIO.HwpxDocument.html">HwpxDocument</a>&gt;</div>
+      <div><span class="xref">HwpxBuilder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Build">HwpxBuilderCore&lt;HwpxDocument&gt;.Build()</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Value">HwpxBuilderCore&lt;HwpxDocument&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_HwpxBuilder">HwpxBuilderCore&lt;HwpxDocument&gt;.HwpxBuilder</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_CreateTable_HwpxIO_Builder_Contracts_IHwpxBuilder_System_Action_HwpxIO_Builder_Section_Run_Tbl_TableBuilder__">BuilderExtensions.CreateTable(IHwpxBuilder, Action&lt;TableBuilder&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_CreateText_HwpxIO_Builder_Contracts_IHwpxBuilder_System_Action_HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder__">BuilderExtensions.CreateText(IHwpxBuilder, Action&lt;PTypeRunTBuilder&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_CreateText_HwpxIO_Builder_Contracts_IHwpxBuilder_System_String_System_String_">BuilderExtensions.CreateText(IHwpxBuilder, string, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Builder_Contracts_IHwpxBuilder_HwpxIO_Models_BorderFillType_">BuilderExtensions.GetOrAddIfMissing(IHwpxBuilder, BorderFillType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Builder_Contracts_IHwpxBuilder_HwpxIO_Models_CharShapeType_">BuilderExtensions.GetOrAddIfMissing(IHwpxBuilder, CharShapeType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Builder_Contracts_IHwpxBuilder_HwpxIO_Models_FontfaceTypeFont_HwpxIO_Enums_FontfaceTypeLang_">BuilderExtensions.GetOrAddIfMissing(IHwpxBuilder, FontfaceTypeFont, FontfaceTypeLang)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Builder_Contracts_IHwpxBuilder_HwpxIO_Models_ParaShapeType_">BuilderExtensions.GetOrAddIfMissing(IHwpxBuilder, ParaShapeType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Builder_Contracts_IHwpxBuilder_HwpxIO_Models_StyleType_">BuilderExtensions.GetOrAddIfMissing(IHwpxBuilder, StyleType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetOrAddIfMissing_HwpxIO_Builder_Contracts_IHwpxBuilder_HwpxIO_Models_TabDefType_">BuilderExtensions.GetOrAddIfMissing(IHwpxBuilder, TabDefType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Builder.BuilderExtensions.html#HwpxIO_Builder_BuilderExtensions_GetStyleType_HwpxIO_Builder_Contracts_IHwpxBuilder_System_String_">BuilderExtensions.GetStyleType(IHwpxBuilder, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder__ctor_" data-uid="HwpxIO.Builder.HwpxBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder__ctor" data-uid="HwpxIO.Builder.HwpxBuilder.#ctor">
+  HwpxBuilder()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder__ctor_" data-uid="HwpxIO.Builder.HwpxBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder__ctor_HwpxIO_HwpxDocument_" data-uid="HwpxIO.Builder.HwpxBuilder.#ctor(HwpxIO.HwpxDocument)">
+  HwpxBuilder(HwpxDocument)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder(HwpxDocument document)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>document</code> <a class="xref" href="HwpxIO.HwpxDocument.html">HwpxDocument</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_HwpxDocument_" data-uid="HwpxIO.Builder.HwpxBuilder.HwpxDocument*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_HwpxDocument" data-uid="HwpxIO.Builder.HwpxBuilder.HwpxDocument">
+  HwpxDocument
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxDocument HwpxDocument { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.HwpxDocument.html">HwpxDocument</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddBinData_" data-uid="HwpxIO.Builder.HwpxBuilder.AddBinData*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddBinData_System_String_System_Byte___" data-uid="HwpxIO.Builder.HwpxBuilder.AddBinData(System.String,System.Byte[])">
+  AddBinData(string, byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddBinData(string name, byte[] data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddImage_" data-uid="HwpxIO.Builder.HwpxBuilder.AddImage*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddImage_System_Byte___System_String_System_String__" data-uid="HwpxIO.Builder.HwpxBuilder.AddImage(System.Byte[],System.String,System.String@)">
+  AddImage(byte[], string, out string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddImage(byte[] imgBytes, string extension, out string imageId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imgBytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>extension</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddImage_" data-uid="HwpxIO.Builder.HwpxBuilder.AddImage*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddImage_System_String_System_String__" data-uid="HwpxIO.Builder.HwpxBuilder.AddImage(System.String,System.String@)">
+  AddImage(string, out string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddImage(string filePath, out string imageId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>imageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddOdfManifestFileEntry_" data-uid="HwpxIO.Builder.HwpxBuilder.AddOdfManifestFileEntry*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddOdfManifestFileEntry_HwpxIO_Models_Odf_OdfManifestFileEntry_" data-uid="HwpxIO.Builder.HwpxBuilder.AddOdfManifestFileEntry(HwpxIO.Models.Odf.OdfManifestFileEntry)">
+  AddOdfManifestFileEntry(OdfManifestFileEntry)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddOdfManifestFileEntry(OdfManifestFileEntry fileEntry)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileEntry</code> <a class="xref" href="HwpxIO.Models.Odf.OdfManifestFileEntry.html">OdfManifestFileEntry</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddOdfManifestFileEntry_" data-uid="HwpxIO.Builder.HwpxBuilder.AddOdfManifestFileEntry*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddOdfManifestFileEntry_System_String_System_String_System_Int64_HwpxIO_Models_Odf_EncryptionData_" data-uid="HwpxIO.Builder.HwpxBuilder.AddOdfManifestFileEntry(System.String,System.String,System.Int64,HwpxIO.Models.Odf.EncryptionData)">
+  AddOdfManifestFileEntry(string, string, long, EncryptionData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddOdfManifestFileEntry(string fullPath = null, string mediaType = null, long size = 0, EncryptionData encryptionData = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fullPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>encryptionData</code> <a class="xref" href="HwpxIO.Models.Odf.EncryptionData.html">EncryptionData</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddScript_" data-uid="HwpxIO.Builder.HwpxBuilder.AddScript*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddScript_System_String_System_String_" data-uid="HwpxIO.Builder.HwpxBuilder.AddScript(System.String,System.String)">
+  AddScript(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddScript(string name, string script)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>script</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddSectionType_" data-uid="HwpxIO.Builder.HwpxBuilder.AddSectionType*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddSectionType_HwpxIO_Models_SectionType_" data-uid="HwpxIO.Builder.HwpxBuilder.AddSectionType(HwpxIO.Models.SectionType)">
+  AddSectionType(SectionType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddSectionType(SectionType sectionType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sectionType</code> <a class="xref" href="HwpxIO.Models.SectionType.html">SectionType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_AddSectionType_" data-uid="HwpxIO.Builder.HwpxBuilder.AddSectionType*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_AddSectionType_System_Action_HwpxIO_Builder_Section_SectionTypeBuilder__HwpxIO_Models_SectionType_" data-uid="HwpxIO.Builder.HwpxBuilder.AddSectionType(System.Action{HwpxIO.Builder.Section.SectionTypeBuilder},HwpxIO.Models.SectionType)">
+  AddSectionType(Action&lt;SectionTypeBuilder&gt;, SectionType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder AddSectionType(Action&lt;SectionTypeBuilder&gt; builderAction, SectionType sectionType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.SectionTypeBuilder.html">SectionTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>sectionType</code> <a class="xref" href="HwpxIO.Models.SectionType.html">SectionType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetApplicationSetting_" data-uid="HwpxIO.Builder.HwpxBuilder.SetApplicationSetting*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetApplicationSetting_HwpxIO_Models_HWPApplicationSetting_" data-uid="HwpxIO.Builder.HwpxBuilder.SetApplicationSetting(HwpxIO.Models.HWPApplicationSetting)">
+  SetApplicationSetting(HWPApplicationSetting)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetApplicationSetting(HWPApplicationSetting applicationSetting)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>applicationSetting</code> <a class="xref" href="HwpxIO.Models.HWPApplicationSetting.html">HWPApplicationSetting</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetApplicationSetting_" data-uid="HwpxIO.Builder.HwpxBuilder.SetApplicationSetting*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetApplicationSetting_System_Action_HwpxIO_Builder_HWPApplicationSettingBuilder__HwpxIO_Models_HWPApplicationSetting_" data-uid="HwpxIO.Builder.HwpxBuilder.SetApplicationSetting(System.Action{HwpxIO.Builder.HWPApplicationSettingBuilder},HwpxIO.Models.HWPApplicationSetting)">
+  SetApplicationSetting(Action&lt;HWPApplicationSettingBuilder&gt;, HWPApplicationSetting)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetApplicationSetting(Action&lt;HWPApplicationSettingBuilder&gt; builderAction, HWPApplicationSetting applicationSetting = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HWPApplicationSettingBuilder.html">HWPApplicationSettingBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>applicationSetting</code> <a class="xref" href="HwpxIO.Models.HWPApplicationSetting.html">HWPApplicationSetting</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetContainerRdf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContainerRdf*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetContainerRdf_HwpxIO_Models_Rdf_ContainerRdf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContainerRdf(HwpxIO.Models.Rdf.ContainerRdf)">
+  SetContainerRdf(ContainerRdf)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetContainerRdf(ContainerRdf containerRdf)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>containerRdf</code> <a class="xref" href="HwpxIO.Models.Rdf.ContainerRdf.html">ContainerRdf</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetContainerRdf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContainerRdf*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetContainerRdf_System_Action_HwpxIO_Builder_ContainerRdfBuilder__HwpxIO_Models_Rdf_ContainerRdf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContainerRdf(System.Action{HwpxIO.Builder.ContainerRdfBuilder},HwpxIO.Models.Rdf.ContainerRdf)">
+  SetContainerRdf(Action&lt;ContainerRdfBuilder&gt;, ContainerRdf)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetContainerRdf(Action&lt;ContainerRdfBuilder&gt; builderAction, ContainerRdf containerRdf = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.ContainerRdfBuilder.html">ContainerRdfBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>containerRdf</code> <a class="xref" href="HwpxIO.Models.Rdf.ContainerRdf.html">ContainerRdf</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetContentHpf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContentHpf*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetContentHpf_HwpxIO_Models_Hpf_ContentHpf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContentHpf(HwpxIO.Models.Hpf.ContentHpf)">
+  SetContentHpf(ContentHpf)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetContentHpf(ContentHpf contentHpf)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentHpf</code> <a class="xref" href="HwpxIO.Models.Hpf.ContentHpf.html">ContentHpf</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetContentHpf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContentHpf*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetContentHpf_System_Action_HwpxIO_Builder_ContentHpfBuilder__HwpxIO_Models_Hpf_ContentHpf_" data-uid="HwpxIO.Builder.HwpxBuilder.SetContentHpf(System.Action{HwpxIO.Builder.ContentHpfBuilder},HwpxIO.Models.Hpf.ContentHpf)">
+  SetContentHpf(Action&lt;ContentHpfBuilder&gt;, ContentHpf)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetContentHpf(Action&lt;ContentHpfBuilder&gt; builderAction, ContentHpf contentHpf = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.ContentHpfBuilder.html">ContentHpfBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>contentHpf</code> <a class="xref" href="HwpxIO.Models.Hpf.ContentHpf.html">ContentHpf</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetHeadType_" data-uid="HwpxIO.Builder.HwpxBuilder.SetHeadType*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetHeadType_HwpxIO_Models_HWPMLHeadType_" data-uid="HwpxIO.Builder.HwpxBuilder.SetHeadType(HwpxIO.Models.HWPMLHeadType)">
+  SetHeadType(HWPMLHeadType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetHeadType(HWPMLHeadType headType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>headType</code> <a class="xref" href="HwpxIO.Models.HWPMLHeadType.html">HWPMLHeadType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetHeadType_" data-uid="HwpxIO.Builder.HwpxBuilder.SetHeadType*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetHeadType_System_Action_HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder__HwpxIO_Models_HWPMLHeadType_" data-uid="HwpxIO.Builder.HwpxBuilder.SetHeadType(System.Action{HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder},HwpxIO.Models.HWPMLHeadType)">
+  SetHeadType(Action&lt;HWPMLHeadTypeBuilder&gt;, HWPMLHeadType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetHeadType(Action&lt;HWPMLHeadTypeBuilder&gt; builderAction, HWPMLHeadType headType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>headType</code> <a class="xref" href="HwpxIO.Models.HWPMLHeadType.html">HWPMLHeadType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetMime_" data-uid="HwpxIO.Builder.HwpxBuilder.SetMime*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetMime_System_String_" data-uid="HwpxIO.Builder.HwpxBuilder.SetMime(System.String)">
+  SetMime(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetMime(string mime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetOcfContainer_" data-uid="HwpxIO.Builder.HwpxBuilder.SetOcfContainer*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetOcfContainer_HwpxIO_Models_OcfContainer_" data-uid="HwpxIO.Builder.HwpxBuilder.SetOcfContainer(HwpxIO.Models.OcfContainer)">
+  SetOcfContainer(OcfContainer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetOcfContainer(OcfContainer ocfContainer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ocfContainer</code> <a class="xref" href="HwpxIO.Models.OcfContainer.html">OcfContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetOcfContainer_" data-uid="HwpxIO.Builder.HwpxBuilder.SetOcfContainer*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetOcfContainer_System_Action_HwpxIO_Builder_OcfContainerBuilder__HwpxIO_Models_OcfContainer_" data-uid="HwpxIO.Builder.HwpxBuilder.SetOcfContainer(System.Action{HwpxIO.Builder.OcfContainerBuilder},HwpxIO.Models.OcfContainer)">
+  SetOcfContainer(Action&lt;OcfContainerBuilder&gt;, OcfContainer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetOcfContainer(Action&lt;OcfContainerBuilder&gt; builderAction, OcfContainer ocfContainer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.OcfContainerBuilder.html">OcfContainerBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>ocfContainer</code> <a class="xref" href="HwpxIO.Models.OcfContainer.html">OcfContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetPreviewImage_" data-uid="HwpxIO.Builder.HwpxBuilder.SetPreviewImage*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetPreviewImage_System_Byte___" data-uid="HwpxIO.Builder.HwpxBuilder.SetPreviewImage(System.Byte[])">
+  SetPreviewImage(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetPreviewImage(byte[] image)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetPreviewImage_" data-uid="HwpxIO.Builder.HwpxBuilder.SetPreviewImage*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetPreviewImage_System_String_" data-uid="HwpxIO.Builder.HwpxBuilder.SetPreviewImage(System.String)">
+  SetPreviewImage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetPreviewImage(string imageFilePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageFilePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetPreviewText_" data-uid="HwpxIO.Builder.HwpxBuilder.SetPreviewText*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetPreviewText_System_String_" data-uid="HwpxIO.Builder.HwpxBuilder.SetPreviewText(System.String)">
+  SetPreviewText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetPreviewText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetVersion_" data-uid="HwpxIO.Builder.HwpxBuilder.SetVersion*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetVersion_HwpxIO_Models_HCFVersion_" data-uid="HwpxIO.Builder.HwpxBuilder.SetVersion(HwpxIO.Models.HCFVersion)">
+  SetVersion(HCFVersion)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetVersion(HCFVersion version)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>version</code> <a class="xref" href="HwpxIO.Models.HCFVersion.html">HCFVersion</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_SetVersion_" data-uid="HwpxIO.Builder.HwpxBuilder.SetVersion*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_SetVersion_System_Action_HwpxIO_Builder_HCFVersionBuilder__HwpxIO_Models_HCFVersion_" data-uid="HwpxIO.Builder.HwpxBuilder.SetVersion(System.Action{HwpxIO.Builder.HCFVersionBuilder},HwpxIO.Models.HCFVersion)">
+  SetVersion(Action&lt;HCFVersionBuilder&gt;, HCFVersion)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder SetVersion(Action&lt;HCFVersionBuilder&gt; builderAction, HCFVersion version = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HCFVersionBuilder.html">HCFVersionBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>version</code> <a class="xref" href="HwpxIO.Models.HCFVersion.html">HCFVersion</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_UpdateApplicationSettingBuilder_" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateApplicationSettingBuilder*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_UpdateApplicationSettingBuilder_System_Action_HwpxIO_Builder_HWPApplicationSettingBuilder__" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateApplicationSettingBuilder(System.Action{HwpxIO.Builder.HWPApplicationSettingBuilder})">
+  UpdateApplicationSettingBuilder(Action&lt;HWPApplicationSettingBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder UpdateApplicationSettingBuilder(Action&lt;HWPApplicationSettingBuilder&gt; builderAction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HWPApplicationSettingBuilder.html">HWPApplicationSettingBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_UpdateContainerRdfBuilder_" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateContainerRdfBuilder*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_UpdateContainerRdfBuilder_System_Action_HwpxIO_Builder_ContainerRdfBuilder__" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateContainerRdfBuilder(System.Action{HwpxIO.Builder.ContainerRdfBuilder})">
+  UpdateContainerRdfBuilder(Action&lt;ContainerRdfBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder UpdateContainerRdfBuilder(Action&lt;ContainerRdfBuilder&gt; builderAction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.ContainerRdfBuilder.html">ContainerRdfBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_UpdateContentHpfBuilder_" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateContentHpfBuilder*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_UpdateContentHpfBuilder_System_Action_HwpxIO_Builder_ContentHpfBuilder__" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateContentHpfBuilder(System.Action{HwpxIO.Builder.ContentHpfBuilder})">
+  UpdateContentHpfBuilder(Action&lt;ContentHpfBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder UpdateContentHpfBuilder(Action&lt;ContentHpfBuilder&gt; builderAction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.ContentHpfBuilder.html">ContentHpfBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_UpdateHeadTypeBuilder_" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateHeadTypeBuilder*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_UpdateHeadTypeBuilder_System_Action_HwpxIO_Builder_HeadType_HWPMLHeadTypeBuilder__" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateHeadTypeBuilder(System.Action{HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder})">
+  UpdateHeadTypeBuilder(Action&lt;HWPMLHeadTypeBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder UpdateHeadTypeBuilder(Action&lt;HWPMLHeadTypeBuilder&gt; builderAction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html">HWPMLHeadTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_UpdateOcfContainerBuilder_" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateOcfContainerBuilder*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_UpdateOcfContainerBuilder_System_Action_HwpxIO_Builder_OcfContainerBuilder__" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateOcfContainerBuilder(System.Action{HwpxIO.Builder.OcfContainerBuilder})">
+  UpdateOcfContainerBuilder(Action&lt;OcfContainerBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder UpdateOcfContainerBuilder(Action&lt;OcfContainerBuilder&gt; builderAction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.OcfContainerBuilder.html">OcfContainerBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_HwpxBuilder_UpdateSectionTypeBuilder_" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateSectionTypeBuilder*"></a>
+
+  <h3 id="HwpxIO_Builder_HwpxBuilder_UpdateSectionTypeBuilder_System_Action_HwpxIO_Builder_Section_SectionTypeBuilder__System_Int32_" data-uid="HwpxIO.Builder.HwpxBuilder.UpdateSectionTypeBuilder(System.Action{HwpxIO.Builder.Section.SectionTypeBuilder},System.Int32)">
+  UpdateSectionTypeBuilder(Action&lt;SectionTypeBuilder&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HwpxBuilder UpdateSectionTypeBuilder(Action&lt;SectionTypeBuilder&gt; builderAction, int index = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.SectionTypeBuilder.html">SectionTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.HwpxBuilder.html">HwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/HwpxBuilder.cs/#L19" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

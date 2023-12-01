@@ -1,0 +1,653 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ParaHeadType
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ParaHeadType
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Models_ParaHeadType.md&amp;value=---%0Auid%3A%20HwpxIO.Models.ParaHeadType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Models.ParaHeadType">
+
+
+
+  <h1 id="HwpxIO_Models_ParaHeadType" data-uid="HwpxIO.Models.ParaHeadType" class="text-break">
+    Class ParaHeadType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Models.html">Models</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>각 번호 문단 머리의 정보. <br>
+문자열 내 특정 문자에 제어코드(^)를 붙임으로써 글에서 표시되는 번호 문단 머리의 포맷을 제어한다. <br><br>
+^n : 레벨 경로를 표시한다. (예: 1.1.1.1.1.1.1) <br>
+^N : 레벨 경로를 표시하며 마지막에 마침표를 하나 더 찍는다. (예: 1.1.1.1.1.1.1.) <br>
+^레벨번호(1~7) : 해당 레벨에 해당하는 숫자 또는 문자 또는 기호를 표시한다.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class ParaHeadType : IHwpxObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ParaHeadType</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Models.Contracts.IHwpxObject.html">IHwpxObject</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Models.ParaHeadType2.html">ParaHeadType2</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_ItemCountUpdate_HwpxIO_Models_Contracts_IHwpxObject_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentExtensions.ItemCountUpdate(IHwpxObject, IHwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_SerializeToXmlElements__1___0_">HwpxDocumentExtensions.SerializeToXmlElements&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Models_ParaHeadType__ctor_" data-uid="HwpxIO.Models.ParaHeadType.#ctor*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType__ctor" data-uid="HwpxIO.Models.ParaHeadType.#ctor">
+  ParaHeadType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParaHeadType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HwpxIO_Models_ParaHeadType_Align_" data-uid="HwpxIO.Models.ParaHeadType.Align*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_Align" data-uid="HwpxIO.Models.ParaHeadType.Align">
+  Align
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단의 정렬 종류</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParaHeadTypeAlign Align { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.ParaHeadTypeAlign.html">ParaHeadTypeAlign</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_AutoIndent_" data-uid="HwpxIO.Models.ParaHeadType.AutoIndent*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_AutoIndent" data-uid="HwpxIO.Models.ParaHeadType.AutoIndent">
+  AutoIndent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>자동 내어쓰기 여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoIndent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_CharPrIDRef_" data-uid="HwpxIO.Models.ParaHeadType.CharPrIDRef*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_CharPrIDRef" data-uid="HwpxIO.Models.ParaHeadType.CharPrIDRef">
+  CharPrIDRef
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글자 모양 아이디 참조 값</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CharPrIDRef { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_Checkable_" data-uid="HwpxIO.Models.ParaHeadType.Checkable*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_Checkable" data-uid="HwpxIO.Models.ParaHeadType.Checkable">
+  Checkable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Checkable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_Level_" data-uid="HwpxIO.Models.ParaHeadType.Level*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_Level" data-uid="HwpxIO.Models.ParaHeadType.Level">
+  Level
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>번호/글머리표의 수준</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Level { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_NumFormat_" data-uid="HwpxIO.Models.ParaHeadType.NumFormat*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_NumFormat" data-uid="HwpxIO.Models.ParaHeadType.NumFormat">
+  NumFormat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>번호 형식(글머리표 문단의 경우에는 사용되지 않음)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NumberType1 NumFormat { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.NumberType1.html">NumberType1</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_Text_" data-uid="HwpxIO.Models.ParaHeadType.Text*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_Text" data-uid="HwpxIO.Models.ParaHeadType.Text">
+  Text
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Text { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_TextOffset_" data-uid="HwpxIO.Models.ParaHeadType.TextOffset*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_TextOffset" data-uid="HwpxIO.Models.ParaHeadType.TextOffset">
+  TextOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>수준별 본문과의 거리</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TextOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_TextOffsetType_" data-uid="HwpxIO.Models.ParaHeadType.TextOffsetType*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_TextOffsetType" data-uid="HwpxIO.Models.ParaHeadType.TextOffsetType">
+  TextOffsetType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>수준별 본문과의 거리 단위 종류</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParaHeadTypeTextOffsetType TextOffsetType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Enums.ParaHeadTypeTextOffsetType.html">ParaHeadTypeTextOffsetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_UseInstWidth_" data-uid="HwpxIO.Models.ParaHeadType.UseInstWidth*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_UseInstWidth" data-uid="HwpxIO.Models.ParaHeadType.UseInstWidth">
+  UseInstWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>번호 너비를 실제 인스턴스 문자열의 너비에 따를지 여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseInstWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_ParaHeadType_WidthAdjust_" data-uid="HwpxIO.Models.ParaHeadType.WidthAdjust*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_WidthAdjust" data-uid="HwpxIO.Models.ParaHeadType.WidthAdjust">
+  WidthAdjust
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>번호 너비 보정값. 단위는 hwpunit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long WidthAdjust { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Models_ParaHeadType_Create_" data-uid="HwpxIO.Models.ParaHeadType.Create*"></a>
+
+  <h3 id="HwpxIO_Models_ParaHeadType_Create_System_Nullable_System_Int32__System_Nullable_HwpxIO_Enums_ParaHeadTypeAlign__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Int64__System_Nullable_HwpxIO_Enums_ParaHeadTypeTextOffsetType__System_Nullable_System_Int64__System_Nullable_HwpxIO_Enums_NumberType1__System_String_System_Nullable_System_Boolean__System_String_" data-uid="HwpxIO.Models.ParaHeadType.Create(System.Nullable{System.Int32},System.Nullable{HwpxIO.Enums.ParaHeadTypeAlign},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int64},System.Nullable{HwpxIO.Enums.ParaHeadTypeTextOffsetType},System.Nullable{System.Int64},System.Nullable{HwpxIO.Enums.NumberType1},System.String,System.Nullable{System.Boolean},System.String)">
+  Create(int?, ParaHeadTypeAlign?, bool?, bool?, long?, ParaHeadTypeTextOffsetType?, long?, NumberType1?, string, bool?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ParaHeadType Create(int? level = null, ParaHeadTypeAlign? align = null, bool? useInstWidth = null, bool? autoIndent = null, long? widthAdjust = null, ParaHeadTypeTextOffsetType? textOffsetType = null, long? textOffset = null, NumberType1? numFormat = null, string charPrIDRef = null, bool? checkable = null, string text = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>align</code> <a class="xref" href="HwpxIO.Enums.ParaHeadTypeAlign.html">ParaHeadTypeAlign</a>?</dt>
+    <dd></dd>
+    <dt><code>useInstWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>autoIndent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>widthAdjust</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+    <dt><code>textOffsetType</code> <a class="xref" href="HwpxIO.Enums.ParaHeadTypeTextOffsetType.html">ParaHeadTypeTextOffsetType</a>?</dt>
+    <dd></dd>
+    <dt><code>textOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+    <dt><code>numFormat</code> <a class="xref" href="HwpxIO.Enums.NumberType1.html">NumberType1</a>?</dt>
+    <dd></dd>
+    <dt><code>charPrIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>checkable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.ParaHeadType.html">ParaHeadType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/ParaHeadType.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

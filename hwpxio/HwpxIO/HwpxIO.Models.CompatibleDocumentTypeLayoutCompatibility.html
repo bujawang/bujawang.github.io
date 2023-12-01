@@ -1,0 +1,1774 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CompatibleDocumentTypeLayoutCompatibility
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CompatibleDocumentTypeLayoutCompatibility
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility.md&amp;value=---%0Auid%3A%20HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility">
+
+
+
+  <h1 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility" class="text-break">
+    Class CompatibleDocumentTypeLayoutCompatibility
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Models.html">Models</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a class="xref" href="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.html">CompatibleDocumentTypeLayoutCompatibility</a> 요소는 HWP 문서를 다른 형식의 문서로 변환시킬 때 필요한 설정 정보이다. <br>
+즉, HWP 문서를 OOXML 워드 문서 또는 ODF 워드 문서로 변환시킬 경우, HWP 문서에서는 지원되지만 <br>
+OOXML 워드 문서 또는 ODF 워드 문서에서 지원되지 않는 레이아웃 설정 등을 어떤 방식으로 변환시킬 것인지에 대한 설정이다. <br>
+하위 요소가 나타나는 경우에는 그 값이 사용되는 경우이고 나타나지 않는 경우는 사용되지 않는 경우이다.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class CompatibleDocumentTypeLayoutCompatibility : IHwpxObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CompatibleDocumentTypeLayoutCompatibility</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Models.Contracts.IHwpxObject.html">IHwpxObject</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_SerializeToXmlElements__1___0_">HwpxDocumentExtensions.SerializeToXmlElements&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_ItemCountUpdate_HwpxIO_Models_Contracts_IHwpxObject_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentExtensions.ItemCountUpdate(IHwpxObject, IHwpxDocument)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustBaselineInFixedLinespacing_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustBaselineInFixedLinespacing*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustBaselineInFixedLinespacing" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustBaselineInFixedLinespacing">
+  AdjustBaselineInFixedLinespacing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄 간격의 [고정 값]에서 기준선을 세로 정렬에 따라 조정함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object AdjustBaselineInFixedLinespacing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustBaselineOfObjectToBottom_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustBaselineOfObjectToBottom*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustBaselineOfObjectToBottom" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustBaselineOfObjectToBottom">
+  AdjustBaselineOfObjectToBottom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L833"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글자처럼 취급한 개체의 기준선을 개체 아래쪽으로 조정함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object AdjustBaselineOfObjectToBottom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustLineheightToFont_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustLineheightToFont*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustLineheightToFont" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustLineheightToFont">
+  AdjustLineheightToFont
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>기본 줄 높이를 글꼴에 맞춰서 조정함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object AdjustLineheightToFont { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustParaBorderOffsetWithBorder_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustParaBorderOffsetWithBorder*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustParaBorderOffsetWithBorder" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustParaBorderOffsetWithBorder">
+  AdjustParaBorderOffsetWithBorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L433"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단 테두리/배경의 간격을 테두리 설정 시에 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object AdjustParaBorderOffsetWithBorder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustParaBorderfillToSpacing_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustParaBorderfillToSpacing*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustParaBorderfillToSpacing" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustParaBorderfillToSpacing">
+  AdjustParaBorderfillToSpacing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단 테두리/배경의 영역을 문단 여백과 위, 아래 간격을 제외하고 줄 간격에만 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object AdjustParaBorderfillToSpacing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustVertPosOfLine_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustVertPosOfLine*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_AdjustVertPosOfLine" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.AdjustVertPosOfLine">
+  AdjustVertPosOfLine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄 간격에 따라 줄의 위치를 조정함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object AdjustVertPosOfLine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyAtLeastToPercent100Pct_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyAtLeastToPercent100Pct*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyAtLeastToPercent100Pct" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyAtLeastToPercent100Pct">
+  ApplyAtLeastToPercent100Pct
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄 간격의 [최소]를 [글자에 따라]에서 100 %로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyAtLeastToPercent100Pct { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyCharSpacingToCharGrid_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyCharSpacingToCharGrid*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyCharSpacingToCharGrid" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyCharSpacingToCharGrid">
+  ApplyCharSpacingToCharGrid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L609"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글자 격자의 간격을 글자에 따른 자간으로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyCharSpacingToCharGrid { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyExtendHeaderFooterEachSection_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyExtendHeaderFooterEachSection*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyExtendHeaderFooterEachSection" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyExtendHeaderFooterEachSection">
+  ApplyExtendHeaderFooterEachSection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L641"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>본문 영역으로 확장되는 구역 단위 머리말, 꼬리말을 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyExtendHeaderFooterEachSection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyFontWeightToBold_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyFontWeightToBold*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyFontWeightToBold" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyFontWeightToBold">
+  ApplyFontWeightToBold
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>진하게 글자에 글꼴의 너비를 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyFontWeightToBold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyFontspaceToLatin_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyFontspaceToLatin*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyFontspaceToLatin" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyFontspaceToLatin">
+  ApplyFontspaceToLatin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>라틴어 사이의 빈칸에 글꼴에 어울리는 빈칸을 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyFontspaceToLatin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyMinColumnWidthTo1mm_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyMinColumnWidthTo1mm*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyMinColumnWidthTo1mm" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyMinColumnWidthTo1mm">
+  ApplyMinColumnWidthTo1mm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>단 영역의 최소 폭을 1 mm로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyMinColumnWidthTo1mm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyNextspacingOfLastPara_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyNextspacingOfLastPara*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyNextspacingOfLastPara" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyNextspacingOfLastPara">
+  ApplyNextspacingOfLastPara
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>마지막 문단의 아래 간격을 영역에 포함하여 확장함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyNextspacingOfLastPara { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyParaBorderToOutside_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyParaBorderToOutside*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyParaBorderToOutside" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyParaBorderToOutside">
+  ApplyParaBorderToOutside
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L465"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단 테두리를 지정된 영역의 바깥쪽으로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyParaBorderToOutside { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyPrevspacingBeneathObject_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyPrevspacingBeneathObject*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyPrevspacingBeneathObject" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyPrevspacingBeneathObject">
+  ApplyPrevspacingBeneathObject
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>개체 아래 문단의 위 간격을 개체 기준으로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyPrevspacingBeneathObject { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyTabPosBasedOnSegment_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyTabPosBasedOnSegment*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ApplyTabPosBasedOnSegment" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ApplyTabPosBasedOnSegment">
+  ApplyTabPosBasedOnSegment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>탭 위치를 개체에 의해 배치된 영역을 기준으로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ApplyTabPosBasedOnSegment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BaseCharUnitOfIndentOnFirstChar_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BaseCharUnitOfIndentOnFirstChar*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BaseCharUnitOfIndentOnFirstChar" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BaseCharUnitOfIndentOnFirstChar">
+  BaseCharUnitOfIndentOnFirstChar
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>들여쓰기/내어쓰기의 글자 단위를 문단 첫 글자의 크기를 기준으로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object BaseCharUnitOfIndentOnFirstChar { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BaseCharUnitOnEAsian_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BaseCharUnitOnEAsian*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BaseCharUnitOnEAsian" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BaseCharUnitOnEAsian">
+  BaseCharUnitOnEAsian
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글자 단위를 바탕글 스타일의 한글 크기를 기준으로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object BaseCharUnitOnEAsian { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BaseLineSpacingOnLineGrid_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BaseLineSpacingOnLineGrid*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BaseLineSpacingOnLineGrid" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BaseLineSpacingOnLineGrid">
+  BaseLineSpacingOnLineGrid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L593"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄 격자의 간격을 줄 간격의 기준으로 적용함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object BaseLineSpacingOnLineGrid { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BreakTabOverLine_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BreakTabOverLine*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_BreakTabOverLine" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.BreakTabOverLine">
+  BreakTabOverLine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄 영역을 넘어선 탭을 다음 줄로 넘김</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object BreakTabOverLine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ConnectParaBorderfillOfEqualBorder_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ConnectParaBorderfillOfEqualBorder*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ConnectParaBorderfillOfEqualBorder" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ConnectParaBorderfillOfEqualBorder">
+  ConnectParaBorderfillOfEqualBorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단 테두리가 같은 문단의 문단 테두리/배경을 연결함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ConnectParaBorderfillOfEqualBorder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAdjustEmptyAnchorLine_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAdjustEmptyAnchorLine*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAdjustEmptyAnchorLine" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAdjustEmptyAnchorLine">
+  DoNotAdjustEmptyAnchorLine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L737"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>조판 부호만 있는 빈 줄에 개체 배치를 조정하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotAdjustEmptyAnchorLine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAdjustWordInJustify_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAdjustWordInJustify*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAdjustWordInJustify" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAdjustWordInJustify">
+  DoNotAdjustWordInJustify
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>양쪽 정렬에서 단어의 문자간 간격을 보정하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotAdjustWordInJustify { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAlignLastForbidden_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAlignLastForbidden*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAlignLastForbidden" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAlignLastForbidden">
+  DoNotAlignLastForbidden
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L577"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄의 마지막 금칙 문자를 다음 줄로 넘기지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotAlignLastForbidden { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAlignLastPeriod_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAlignLastPeriod*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAlignLastPeriod" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAlignLastPeriod">
+  DoNotAlignLastPeriod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L561"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄의 마지막 마침표를 다음 줄로 넘기지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotAlignLastPeriod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAlignWhitespaceOnRight_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAlignWhitespaceOnRight*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotAlignWhitespaceOnRight" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotAlignWhitespaceOnRight">
+  DoNotAlignWhitespaceOnRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄의 가장 오른쪽 빈칸을 다음 줄로 넘기지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotAlignWhitespaceOnRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyAutoSpaceEAsianEng_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyAutoSpaceEAsianEng*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyAutoSpaceEAsianEng" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyAutoSpaceEAsianEng">
+  DoNotApplyAutoSpaceEAsianEng
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>한글과 영어 간격에 자동 조절을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyAutoSpaceEAsianEng { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyAutoSpaceEAsianNum_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyAutoSpaceEAsianNum*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyAutoSpaceEAsianNum" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyAutoSpaceEAsianNum">
+  DoNotApplyAutoSpaceEAsianNum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>한글과 숫자 간격에 자동 조절을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyAutoSpaceEAsianNum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyColSeparatorAtNoGap_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyColSeparatorAtNoGap*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyColSeparatorAtNoGap" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyColSeparatorAtNoGap">
+  DoNotApplyColSeparatorAtNoGap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L673"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>단 사이의 간격이 없을 때에는 단 구분선을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyColSeparatorAtNoGap { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyDiacSymMarkOfNoneAndSix_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyDiacSymMarkOfNoneAndSix*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyDiacSymMarkOfNoneAndSix" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyDiacSymMarkOfNoneAndSix">
+  DoNotApplyDiacSymMarkOfNoneAndSix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>강조점의 [없음]과 6개 외의 항목을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyDiacSymMarkOfNoneAndSix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyExtensionCharCompose_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyExtensionCharCompose*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyExtensionCharCompose" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyExtensionCharCompose">
+  DoNotApplyExtensionCharCompose
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L849"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글자 겹치기의 확장 기능을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyExtensionCharCompose { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyGridInHeaderFooter_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyGridInHeaderFooter*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyGridInHeaderFooter" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyGridInHeaderFooter">
+  DoNotApplyGridInHeaderFooter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L625"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>머리말, 꼬리말에 줄/글자 격자를 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyGridInHeaderFooter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyHeaderFooterAtNoSpace_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyHeaderFooterAtNoSpace*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyHeaderFooterAtNoSpace" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyHeaderFooterAtNoSpace">
+  DoNotApplyHeaderFooterAtNoSpace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L657"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>머리말, 꼬리말 영역이 없을 때에는 머리말, 꼬리말을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyHeaderFooterAtNoSpace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyImageEffect_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyImageEffect*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyImageEffect" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyImageEffect">
+  DoNotApplyImageEffect
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L705"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>그림 효과를 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyImageEffect { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyLinegridAtNoLinespacing_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyLinegridAtNoLinespacing*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyLinegridAtNoLinespacing" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyLinegridAtNoLinespacing">
+  DoNotApplyLinegridAtNoLinespacing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L689"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>줄 간격이 없으면 줄 격자의 간격을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyLinegridAtNoLinespacing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyShapeComment_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyShapeComment*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyShapeComment" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyShapeComment">
+  DoNotApplyShapeComment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L721"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>개체 설명문 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyShapeComment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyStrikeoutWithUnderline_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyStrikeoutWithUnderline*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyStrikeoutWithUnderline" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyStrikeoutWithUnderline">
+  DoNotApplyStrikeoutWithUnderline
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>밑줄과 함께 설정된 취소선을 적용하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyStrikeoutWithUnderline { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyVertOffsetOfForward_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyVertOffsetOfForward*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyVertOffsetOfForward" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyVertOffsetOfForward">
+  DoNotApplyVertOffsetOfForward
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L769"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>조판 부호 다음 쪽으로 넘겨진 개체에 세로 위치를 적용 하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyVertOffsetOfForward { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyWhiteSpaceHeight_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyWhiteSpaceHeight*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotApplyWhiteSpaceHeight" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotApplyWhiteSpaceHeight">
+  DoNotApplyWhiteSpaceHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>white space 문자의 글자 크기를 줄 높이에 반영하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotApplyWhiteSpaceHeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotFormattingAtBeneathAnchor_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotFormattingAtBeneathAnchor*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotFormattingAtBeneathAnchor" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotFormattingAtBeneathAnchor">
+  DoNotFormattingAtBeneathAnchor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L817"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단과 조판 부호 다음 쪽으로 넘겨진 개체 사이 영역에 문단을 배치하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotFormattingAtBeneathAnchor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotHoldAnchorOfTable_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotHoldAnchorOfTable*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_DoNotHoldAnchorOfTable" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.DoNotHoldAnchorOfTable">
+  DoNotHoldAnchorOfTable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L801"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단 기준 표의 조판 부호는 쪽 넘김을 방지하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object DoNotHoldAnchorOfTable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ExtendLineheightToOffset_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ExtendLineheightToOffset*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ExtendLineheightToOffset" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ExtendLineheightToOffset">
+  ExtendLineheightToOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>글자 위치와 강조점에 의한 영역까지 줄 높이를 확장함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ExtendLineheightToOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ExtendLineheightToParaBorderOffset_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ExtendLineheightToParaBorderOffset*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ExtendLineheightToParaBorderOffset" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ExtendLineheightToParaBorderOffset">
+  ExtendLineheightToParaBorderOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단 테두리의 굵기와 간격의 영역까지 줄 높이를 확장함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ExtendLineheightToParaBorderOffset { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ExtendVertLimitToPageMargins_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ExtendVertLimitToPageMargins*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_ExtendVertLimitToPageMargins" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.ExtendVertLimitToPageMargins">
+  ExtendVertLimitToPageMargins
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L785"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>문단 기준 개체의 세로 위치를 종이 영역까지 확장함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ExtendVertLimitToPageMargins { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_FixedUnderlineWidth_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.FixedUnderlineWidth*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_FixedUnderlineWidth" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.FixedUnderlineWidth">
+  FixedUnderlineWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>밑줄, 취소선 두께에 글자 크기를 반영하지 않음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object FixedUnderlineWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_OverlapBothAllowOverlap_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.OverlapBothAllowOverlap*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_OverlapBothAllowOverlap" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.OverlapBothAllowOverlap">
+  OverlapBothAllowOverlap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L753"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>개체 두 개가 서로 겹침 허용인 경우에만 서로 겹침</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object OverlapBothAllowOverlap { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_TreatQuotationAsLatin_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.TreatQuotationAsLatin*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_TreatQuotationAsLatin" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.TreatQuotationAsLatin">
+  TreatQuotationAsLatin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>인용 부호를 글꼴에 어울리는 빈칸에서 라틴어로 취급함</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object TreatQuotationAsLatin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_UseInnerUnderline_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.UseInnerUnderline*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_UseInnerUnderline" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.UseInnerUnderline">
+  UseInnerUnderline
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>밑줄 위치를 줄 영역의 안쪽으로 그음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object UseInnerUnderline { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_UseLowercaseStrikeout_" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.UseLowercaseStrikeout*"></a>
+
+  <h3 id="HwpxIO_Models_CompatibleDocumentTypeLayoutCompatibility_UseLowercaseStrikeout" data-uid="HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.UseLowercaseStrikeout">
+  UseLowercaseStrikeout
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>취소선을 영문 소문자 기준으로 그음</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object UseLowercaseStrikeout { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Models/CompatibleDocumentTypeLayoutCompatibility.cs/#L18" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

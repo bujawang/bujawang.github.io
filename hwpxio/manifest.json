@@ -1,0 +1,4968 @@
+{
+  "source_base_path": "D:/jw/hwpxio/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.BorderBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.BorderBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.BorderLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.BorderLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.BorderLineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.BorderLineType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.BorderThickness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.BorderThickness.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.HorizontalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.HorizontalAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.ImageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.ImageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.OrientationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.OrientationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.ParagraphHeadingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.ParagraphHeadingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.PosHorzAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.PosHorzAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.PosVertAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.PosVertAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.PredefinedPaperSizes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.PredefinedPaperSizes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.TextWrapType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.TextWrapType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.VerticalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.VerticalAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.HwpxCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.HwpxCreator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.HwpxCreatorDefaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.HwpxCreatorDefaults.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.HwpxCreatorPageSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.HwpxCreatorPageSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Paragraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Paragraph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.Paragraphs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.Paragraphs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.PictureBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.PictureBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.RunAbstractBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.RunAbstractBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableCell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableCell.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableCellZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableCellZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableColumnZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableColumnZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableDefaultCellSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableDefaultCellSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableRowZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.TableRowZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.TextBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.TextBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO.Creator/HwpxIO.Creator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/HwpxIO.Creator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "HwpxIO.Creator/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO.Creator/toc.html"
+        },
+        ".json": {
+          "relative_path": "HwpxIO.Creator/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Abstract.HwpxBuilderCore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Abstract.HwpxSwitchableBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Abstract.HwpxSwitchableBuilder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Abstract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Abstract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.BuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.BuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.ContainerRdfBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.ContainerRdfBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.ContentHpfBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.ContentHpfBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Contracts.IHwpxBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Contracts.IHwpxBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Contracts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HCFVersionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HCFVersionBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HWPApplicationSettingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HWPApplicationSettingBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.BorderFills.BorderFillTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.BorderFills.BorderFillTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.BorderFills.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.BorderFills.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Bullets.BulletTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Bullets.BulletTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Bullets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Bullets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.CharProperties.CharShapeTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.CharProperties.CharShapeTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.CharProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.CharProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Fontface.FontBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Fontface.FontBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Fontface.FontfaceTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Fontface.FontfaceTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Fontface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Fontface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.HWPMLHeadTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.MemoProperties.MemoShapeTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.MemoProperties.MemoShapeTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.MemoProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.MemoProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Numberings.NumberingTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Numberings.NumberingTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Numberings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Numberings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.ParaProperties.ParaShapeTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.ParaProperties.ParaShapeTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.ParaProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.ParaProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Styles.StyleTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Styles.StyleTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Styles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.Styles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TabProperties.TabDefTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TabProperties.TabDefTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TabProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TabProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChangeAuthors.TrackChangeAuthorBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChangeAuthors.TrackChangeAuthorBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChangeAuthors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChangeAuthors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChanges.TrackChangeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChanges.TrackChangeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChanges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.TrackChanges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HeadType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HeadType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HwpxBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HwpxBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.HwpxBuilderException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.HwpxBuilderException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.IBuilderableModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.IBuilderableModel-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.ICopyToBuilderableModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.ICopyToBuilderableModel-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.OcfContainerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.OcfContainerBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.PTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.PTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.ParaListTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.ParaListTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Ctrl.HeaderFooterTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Ctrl.HeaderFooterTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Ctrl.PTypeRunCtrlBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Ctrl.PTypeRunCtrlBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Ctrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Ctrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.PTypeRunBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.PTypeRunBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Pic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Pic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.T.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.T.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableCellDefaultSettingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableCellDefaultSettingBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableSettingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.ITableSettingBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableCellDefaultSettingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableCellDefaultSettingBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableSettingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableSettingBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableTypeTCBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableTypeTCBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableTypeTRBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.TableTypeTRBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.Tbl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.Run.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.SectionDefinitionTypePageBorderFillBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.SectionDefinitionTypePageBorderFillBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.SectionTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.SectionTypeBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Section.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Section.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Switchable.SwitchBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Switchable.SwitchBuilder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Switchable.SwitchableBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Switchable.SwitchableBuilder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.Switchable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.Switchable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Common.Colors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Common.Colors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Common.EqualityComparerInstances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Common.EqualityComparerInstances.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Comparer.EqualityComparerBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Comparer.EqualityComparerBuilder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Comparer.IEqualityComparerBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Comparer.IEqualityComparerBuilder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Comparer.IIncludableEqualityComparerBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Comparer.IIncludableEqualityComparerBuilder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Comparer.IIncludableEqualityComparerBuilder-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Comparer.IIncludableEqualityComparerBuilder-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Comparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Comparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractButtonObjectTypeBackStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractButtonObjectTypeBackStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractButtonObjectTypeValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractButtonObjectTypeValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeCaptionSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeCaptionSide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeNumberingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeNumberingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosHorzAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosHorzAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosHorzRelTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosHorzRelTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosVertAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosVertAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosVertRelTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypePosVertRelTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeSZHeightRelTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeSZHeightRelTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeSZWidthRelTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeSZWidthRelTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeTextFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeTextFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeTextWrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AbstractShapeObjectTypeTextWrap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AlignStyleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AlignStyleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ArcTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ArcTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ArrowSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ArrowSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ArrowType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ArrowType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.AutoNumNewNumTypeNumType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.AutoNumNewNumTypeNumType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.BorderFillTypeCenterLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.BorderFillTypeCenterLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.CharShapeTypeShadowType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.CharShapeTypeShadowType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.CharShapeTypeSymMark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.CharShapeTypeSymMark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.CharShapeTypeUnderlineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.CharShapeTypeUnderlineType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ColumnDefTypeLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ColumnDefTypeLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ColumnDefTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ColumnDefTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.CompatibleDocumentTypeTargetProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.CompatibleDocumentTypeTargetProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ConnectLineTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ConnectLineTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.CurveTypeSegType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.CurveTypeSegType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.DropCapStyleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.DropCapStyleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EditTypeAlignText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EditTypeAlignText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EditTypeScrollBars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EditTypeScrollBars.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EditTypeTabKeyBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EditTypeTabKeyBehavior.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EffectsColorTypeEffectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EffectsColorTypeEffectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EffectsColorTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EffectsColorTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EffectsTypeShadowStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EffectsTypeShadowStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EllipseTypeArcType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EllipseTypeArcType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EndNoteShapeTypeNumberingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EndNoteShapeTypeNumberingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EndNoteShapeTypePlacementPlace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EndNoteShapeTypePlacementPlace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.EquationTypeLineMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.EquationTypeLineMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FieldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FieldType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FillBrushTypeGradationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FillBrushTypeGradationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FillBrushTypeImgBrushMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FillBrushTypeImgBrushMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FillBrushTypeWinBrushHatchStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FillBrushTypeWinBrushHatchStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeFontSubstFontType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeFontSubstFontType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeFontType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeFontType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeFontTypeInfoFamilyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeFontTypeInfoFamilyType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeLang.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FontfaceTypeLang.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FootNoteShapeTypeNumberingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FootNoteShapeTypeNumberingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.FootNoteShapeTypePlacementPlace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.FootNoteShapeTypePlacementPlace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.HWPValueUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.HWPValueUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.HeaderFooterTypeApplyPageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.HeaderFooterTypeApplyPageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ImageTypeEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ImageTypeEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ItemChoiceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ItemChoiceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ItemsChoiceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ItemsChoiceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ItemsChoiceType1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ItemsChoiceType1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.LicenseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.LicenseType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.LineShapeTypeEndCap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.LineShapeTypeEndCap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.LineShapeTypeOutlineStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.LineShapeTypeOutlineStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.LineType1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.LineType1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.LineType2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.LineType2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.LineType3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.LineType3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.LineWidth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.LineWidth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.MasterPageTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.MasterPageTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.MemoShapeTypeMemoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.MemoShapeTypeMemoType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.NumberType1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.NumberType1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.NumberType2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.NumberType2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.OLETypeDrawAspect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.OLETypeDrawAspect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.OLETypeObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.OLETypeObjectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunComposeCircleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunComposeCircleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunComposeComposeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunComposeComposeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunCtrlPageNumCtrlPageStartsOn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunCtrlPageNumCtrlPageStartsOn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunCtrlPageNumPos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunCtrlPageNumPos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunDutmalAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunDutmalAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunDutmalPosType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunDutmalPosType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTTabType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTTabType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTextartTextartPrAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTextartTextartPrAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTextartTextartPrFontType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTextartTextartPrFontType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTextartTextartPrTextShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunTextartTextartPrTextShape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunVideoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.PTypeRunVideoType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaHeadTypeAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaHeadTypeAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaHeadTypeTextOffsetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaHeadTypeTextOffsetType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaListTypeLineWrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaListTypeLineWrap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaListTypeTextDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaListTypeTextDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaListTypeVertAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaListTypeVertAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeAlignHorizontal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeAlignHorizontal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeAlignVertical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeAlignVertical.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeBreakSettingBreakLatinWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeBreakSettingBreakLatinWord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeBreakSettingBreakNonLatinWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeBreakSettingBreakNonLatinWord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeBreakSettingLineWrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeBreakSettingLineWrap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeHeadingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeHeadingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeLineSpacingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeLineSpacingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeLineSpacingUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ParaShapeTypeLineSpacingUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ScrollBarTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ScrollBarTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePageBorderFillFillArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePageBorderFillFillArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePageBorderFillTextBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePageBorderFillTextBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePageBorderFillType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePageBorderFillType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePagePrGutterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePagePrGutterType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePagePrLandscape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypePagePrLandscape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypeStartNumPageStartsOn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypeStartNumPageStartsOn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypeTextDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SectionDefinitionTypeTextDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.ShadowTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.ShadowTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SlashTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SlashTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.StyleTypeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.StyleTypeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.SystemTimeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.SystemTimeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.TabDefTypeTabItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.TabDefTypeTabItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.TableTypePageBreak.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.TableTypePageBreak.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.TrackChangeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.TrackChangeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.VersionTagetApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.VersionTagetApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.VisibilityValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.VisibilityValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Extensions.GenericExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Extensions.GenericExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Extensions.HwpxDocumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Extensions.HwpxDocumentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Extensions.SwitchableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Extensions.SwitchableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Extensions.ZipArchiveExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Extensions.ZipArchiveExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.HwpxDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.HwpxDocument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractButtonObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractButtonObjectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractDrawingObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractDrawingObjectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractDrawingObjectTypeDrawText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractDrawingObjectTypeDrawText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractDrawingObjectTypeDrawTextTextMargin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractDrawingObjectTypeDrawTextTextMargin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractFormObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractFormObjectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractFormObjectTypeFormCharPr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractFormObjectTypeFormCharPr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeCurSz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeCurSz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeFlip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeFlip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeOffset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeOrgSz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeOrgSz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeRenderingInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeRenderingInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeRotationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeComponentTypeRotationInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypeCaption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypeCaption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypeOutMargin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypeOutMargin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypePos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypePos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypeSZ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AbstractShapeObjectTypeSZ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ArcType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ArcType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AutoNumFormatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AutoNumFormatType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.AutoNumNewNumType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.AutoNumNewNumType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.BorderFillType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.BorderFillType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.BorderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.BorderType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.BulletType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.BulletType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CaretPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CaretPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeFontRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeFontRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeOffset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeOutline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeOutline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeRatio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeRatio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeRelSz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeRelSz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeShadow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeShadow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeSpacing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeSpacing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeStrikeout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeStrikeout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeUnderline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CharShapeTypeUnderline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ColumnDefType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ColumnDefType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ColumnDefTypeColLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ColumnDefTypeColLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ColumnDefTypeColSz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ColumnDefTypeColSz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ComboBoxType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ComboBoxType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Case.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Case.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Default.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Switch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Switch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Switchable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Compatibility.Switchable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Compatibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Compatibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CompatibleDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CompatibleDocumentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CompatibleDocumentTypeLayoutCompatibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ConfigItemSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ConfigItemSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ConnectLineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ConnectLineType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ConnectPointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ConnectPointType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ContainerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ContainerType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Contracts.IHwpxDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Contracts.IHwpxDocument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Contracts.IHwpxObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Contracts.IHwpxObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Contracts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CurveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CurveType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.CurveTypeSeg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.CurveTypeSeg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DeleteBegin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DeleteBegin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DeleteEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DeleteEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocDistribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocDistribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.DeleteType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.DeleteType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.DiffDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.DiffDataType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.DiffEntryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.DiffEntryType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.HWPMLHistoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.HWPMLHistoryType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.HistoryEntryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.HistoryEntryType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.InsertType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.InsertType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.UpdateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.UpdateType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocHistory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocOptionLicenseMark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocOptionLicenseMark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.DocOptionLinkInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.DocOptionLinkInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EditType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EditType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsColorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsColorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeCmyk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeCmyk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeRgb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeRgb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeScheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsColorTypeSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeGlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeGlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeReflectionAlpha.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeReflectionAlpha.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeReflectionPos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeReflectionPos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeShadow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeShadow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeSoftEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EffectsTypeSoftEdge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EllipseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EllipseType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EndNoteShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EndNoteShapeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EndNoteShapeTypeNumbering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EndNoteShapeTypeNumbering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EndNoteShapeTypePlacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EndNoteShapeTypePlacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.EquationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.EquationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FillBrushType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FillBrushType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeGradation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeGradation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeGradationColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeGradationColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeImgBrush.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeImgBrush.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeWinBrush.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FillBrushTypeWinBrush.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FontfaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FontfaceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FontfaceTypeFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FontfaceTypeFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FontfaceTypeFontSubstFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FontfaceTypeFontSubstFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FontfaceTypeFontTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FontfaceTypeFontTypeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FootNoteShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FootNoteShapeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FootNoteShapeTypeNumbering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FootNoteShapeTypeNumbering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FootNoteShapeTypePlacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FootNoteShapeTypePlacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ForbiddenWordListType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ForbiddenWordListType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.FwSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.FwSpace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.HCFVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.HCFVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.HWPApplicationSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.HWPApplicationSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.HWPMLHeadType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.HWPMLHeadType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.HWPMLHeadTypeBeginNum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.HWPMLHeadTypeBeginNum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.HWPMLHeadTypeTrackchageConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.HWPMLHeadTypeTrackchageConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.HWPValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.HWPValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.HeaderFooterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.HeaderFooterType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfManifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfManifest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfManifestItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfManifestItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfMetadataMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfMetadataMeta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfSpine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfSpine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfSpineItemRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.ContentHpfSpineItemRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hpf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Hyphen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Hyphen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ImageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ImageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.InsertBegin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.InsertBegin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.InsertEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.InsertEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.InsideMarginType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.InsideMarginType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.KeyEncryptionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.KeyEncryptionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.KeyEncryptionTypeDerivationKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.KeyEncryptionTypeDerivationKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.LineBreak.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.LineBreak.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.LineNumberShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.LineNumberShape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.LineSeg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.LineSeg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.LineSegArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.LineSegArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.LineShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.LineShapeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.LineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.LineType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ListBoxType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ListBoxType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ListItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ListItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeBorderFills.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeBorderFills.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeBullets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeBullets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeCharProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeCharProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeFontfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeFontfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeMemoProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeMemoProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeNumberings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeNumberings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeParaProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeParaProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeStyles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeTabProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeTabProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeTrackChangeAuthors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeTrackChangeAuthors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeTrackChanges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MappingTableTypeTrackChanges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MarkpenEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MarkpenEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MasterPageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MasterPageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MatrixType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MatrixType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.MemoShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.MemoShapeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.NbSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.NbSpace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.NoteShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.NoteShapeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.NoteShapeTypeNoteLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.NoteShapeTypeNoteLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.NoteShapeTypeNoteSpacing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.NoteShapeTypeNoteSpacing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.NoteType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.NoteType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.NumberingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.NumberingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.OLEType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.OLEType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.OcfContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.OcfContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.OcfContainerRootFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.OcfContainerRootFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.OcfContainerRootFiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.OcfContainerRootFiles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Odf.Algorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Odf.Algorithm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Odf.EncryptionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Odf.EncryptionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Odf.KeyDerivation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Odf.KeyDerivation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Odf.OdfManifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Odf.OdfManifest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Odf.OdfManifestFileEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Odf.OdfManifestFileEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Odf.StartKeyGerneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Odf.StartKeyGerneration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Odf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Odf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRun.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunBtn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunBtn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCheckBtn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCheckBtn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCompose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCompose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunComposeCharPr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunComposeCharPr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlBookmark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlBookmark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlFieldBegin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlFieldBegin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlFieldEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlFieldEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlHiddenComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlHiddenComment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlIndexmark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlIndexmark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlPageHiding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlPageHiding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlPageNum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlPageNum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlPageNumCtrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunCtrlPageNumCtrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunDutmal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunDutmal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunRadioBtn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunRadioBtn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTMarkpenBegin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTMarkpenBegin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTTab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTTab.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTTitleMark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTTitleMark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTextart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTextart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTextartOutline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTextartOutline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTextartTextartPr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunTextartTextartPr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PTypeRunVideo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PTypeRunVideo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaHeadType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaHeadType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaHeadType2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaHeadType2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaListType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaListType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeAlign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeAutoSpacing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeAutoSpacing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeBreakSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeBreakSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeHeading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeHeading.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeLineSpacing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeLineSpacing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeMargin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParaShapeTypeMargin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParameterList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParameterList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParameterListBooleanParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParameterListBooleanParam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParameterListFloatParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParameterListFloatParam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParameterListIntegerParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParameterListIntegerParam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ParameterListStringParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ParameterListStringParam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PictureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PictureType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PictureTypeImgClip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PictureTypeImgClip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PictureTypeImgDim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PictureTypeImgDim.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PictureTypeImgRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PictureTypeImgRect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PointType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.PolygonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.PolygonType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdfDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdfDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdfDescriptionHasPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdfDescriptionHasPart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdfDescriptionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Rdf.ContainerRdfDescriptionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.Rdf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.Rdf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.RectangleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.RectangleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.RotMatrixType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.RotMatrixType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ScaMatrixType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ScaMatrixType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ScaleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ScaleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ScrollBarType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ScrollBarType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeMasterPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeMasterPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePageBorderFill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePageBorderFill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePageBorderFillOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePageBorderFillOffset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePagePr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePagePr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePagePrMargin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePagePrMargin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypePresentation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeStartNum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeStartNum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionDefinitionTypeVisibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SectionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ShadowType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ShadowType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SkewType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SkewType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.SlashType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.SlashType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.StyleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.StyleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TabDefType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TabDefType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TabDefTypeTabItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TabDefTypeTabItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeCellzone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeCellzone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeLabel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeTC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeTC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellAddr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellAddr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellMargin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellMargin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellSpan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellSpan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellSz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeTCCellSz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TableTypeTR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TableTypeTR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TrackChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TrackChange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TrackChangeAuthor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TrackChangeAuthor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TrackChangeTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TrackChangeTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.TransMatrixType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.TransMatrixType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.UnknownObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.UnknownObjectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ValidatorResults.MismatchedItemCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ValidatorResults.MismatchedItemCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.ValidatorResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.ValidatorResults.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.PropertiesEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.PropertiesEqualityComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Reader.HwpxReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Reader.HwpxReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Reader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Utils.Extraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Utils.Extraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Utils.HwpUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Utils.HwpUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Utils.HwpxDocumentUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Utils.HwpxDocumentUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Writer.HwpxWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Writer.HwpxWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.Writer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "HwpxIO/HwpxIO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/HwpxIO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "HwpxIO/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "HwpxIO/toc.html"
+        },
+        ".json": {
+          "relative_path": "HwpxIO/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

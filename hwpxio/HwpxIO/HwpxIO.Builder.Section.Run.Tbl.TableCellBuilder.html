@@ -1,0 +1,826 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TableCellBuilder
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TableCellBuilder
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder.md&amp;value=---%0Auid%3A%20HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder">
+
+
+
+  <h1 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder" class="text-break">
+    Class TableCellBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Builder.html">Builder</a>.<a class="xref" href="HwpxIO.Builder.Section.html">Section</a>.<a class="xref" href="HwpxIO.Builder.Section.Run.html">Run</a>.<a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.html">Tbl</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TableCellBuilder : ITableCellBuilder, ITableBuilder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TableCellBuilder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></div>
+      <div><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableBuilder.html">ITableBuilder</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder__ctor_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder__ctor_HwpxIO_Builder_Section_Run_Tbl_ITableBuilder_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.#ctor(HwpxIO.Builder.Section.Run.Tbl.ITableBuilder,System.Int32,System.Int32)">
+  TableCellBuilder(ITableBuilder, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TableCellBuilder(ITableBuilder parentBuilder, int rowAddr, int colAddr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentBuilder</code> <a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableBuilder.html">ITableBuilder</a></dt>
+    <dd></dd>
+    <dt><code>rowAddr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>colAddr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_Build_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.Build*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_Build" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.Build">
+  Build()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TableType Build()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.TableType.html">TableType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_Cell_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.Cell*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_Cell_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.Cell(System.Int32,System.Int32)">
+  Cell(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder Cell(int rowAddr, int colAddr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rowAddr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>colAddr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_DefaultCellSetting_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.DefaultCellSetting*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_DefaultCellSetting" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.DefaultCellSetting">
+  DefaultCellSetting()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellDefaultSettingBuilder DefaultCellSetting()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellDefaultSettingBuilder.html">ITableCellDefaultSettingBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetBorderFillIdRef_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetBorderFillIdRef*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetBorderFillIdRef_HwpxIO_Models_BorderFillType_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetBorderFillIdRef(HwpxIO.Models.BorderFillType)">
+  SetBorderFillIdRef(BorderFillType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetBorderFillIdRef(BorderFillType borderFillType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>borderFillType</code> <a class="xref" href="HwpxIO.Models.BorderFillType.html">BorderFillType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetBorderFillIdRef_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetBorderFillIdRef*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetBorderFillIdRef_System_String_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetBorderFillIdRef(System.String)">
+  SetBorderFillIdRef(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetBorderFillIdRef(string borderFillIdRef)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>borderFillIdRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetMargin_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetMargin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetMargin_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetMargin(System.Int64)">
+  SetMargin(long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetMargin(long margin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>margin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetMargin_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetMargin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetMargin_System_Int64_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetMargin(System.Int64,System.Int64)">
+  SetMargin(long, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetMargin(long horizontal, long vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetMargin_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetMargin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetMargin_System_Int64_System_Int64_System_Int64_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetMargin(System.Int64,System.Int64,System.Int64,System.Int64)">
+  SetMargin(long, long, long, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetMargin(long left, long top, long right, long bottom)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>top</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>bottom</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSize_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSize*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSize_System_Int64_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSize(System.Int64,System.Int64)">
+  SetSize(long, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetSize(long width, long height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSpan_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSpan*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSpan_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSpan(System.Int32,System.Int32)">
+  SetSpan(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetSpan(int rowSpan = 1, int colSpan = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rowSpan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>colSpan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSubList_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSubList*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSubList_HwpxIO_Models_PTypeRunT_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSubList(HwpxIO.Models.PTypeRunT)">
+  SetSubList(PTypeRunT)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetSubList(PTypeRunT t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="HwpxIO.Models.PTypeRunT.html">PTypeRunT</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSubList_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSubList*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSubList_HwpxIO_Models_ParaListType_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSubList(HwpxIO.Models.ParaListType)">
+  SetSubList(ParaListType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>셀 내용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetSubList(ParaListType subList)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>subList</code> <a class="xref" href="HwpxIO.Models.ParaListType.html">ParaListType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSubList_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSubList*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetSubList_System_Action_HwpxIO_Builder_Section_ParaListTypeBuilder__" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetSubList(System.Action{HwpxIO.Builder.Section.ParaListTypeBuilder})">
+  SetSubList(Action&lt;ParaListTypeBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>셀 내용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetSubList(Action&lt;ParaListTypeBuilder&gt; builderAction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.ParaListTypeBuilder.html">ParaListTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetText_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetText*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetText_System_String_HwpxIO_Models_CharShapeType_System_Nullable_HwpxIO_Enums_ParaListTypeVertAlign__System_Nullable_HwpxIO_Enums_ParaShapeTypeAlignHorizontal__" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetText(System.String,HwpxIO.Models.CharShapeType,System.Nullable{HwpxIO.Enums.ParaListTypeVertAlign},System.Nullable{HwpxIO.Enums.ParaShapeTypeAlignHorizontal})">
+  SetText(string, CharShapeType, ParaListTypeVertAlign?, ParaShapeTypeAlignHorizontal?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>텍스트 설정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetText(string text, CharShapeType charShapeType, ParaListTypeVertAlign? vertAlign = null, ParaShapeTypeAlignHorizontal? horzAlign = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>charShapeType</code> <a class="xref" href="HwpxIO.Models.CharShapeType.html">CharShapeType</a></dt>
+    <dd></dd>
+    <dt><code>vertAlign</code> <a class="xref" href="HwpxIO.Enums.ParaListTypeVertAlign.html">ParaListTypeVertAlign</a>?</dt>
+    <dd></dd>
+    <dt><code>horzAlign</code> <a class="xref" href="HwpxIO.Enums.ParaShapeTypeAlignHorizontal.html">ParaShapeTypeAlignHorizontal</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetText_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetText*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_SetText_System_String_System_String_System_Nullable_HwpxIO_Enums_ParaListTypeVertAlign__System_Nullable_HwpxIO_Enums_ParaShapeTypeAlignHorizontal__" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.SetText(System.String,System.String,System.Nullable{HwpxIO.Enums.ParaListTypeVertAlign},System.Nullable{HwpxIO.Enums.ParaShapeTypeAlignHorizontal})">
+  SetText(string, string, ParaListTypeVertAlign?, ParaShapeTypeAlignHorizontal?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>텍스트 설정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableCellBuilder SetText(string text, string charPrIDRef = null, ParaListTypeVertAlign? vertAlign = null, ParaShapeTypeAlignHorizontal? horzAlign = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>charPrIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>vertAlign</code> <a class="xref" href="HwpxIO.Enums.ParaListTypeVertAlign.html">ParaListTypeVertAlign</a>?</dt>
+    <dd></dd>
+    <dt><code>horzAlign</code> <a class="xref" href="HwpxIO.Enums.ParaShapeTypeAlignHorizontal.html">ParaShapeTypeAlignHorizontal</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableCellBuilder.html">ITableCellBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_Setting_" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.Setting*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Tbl_TableCellBuilder_Setting" data-uid="HwpxIO.Builder.Section.Run.Tbl.TableCellBuilder.Setting">
+  Setting()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITableSettingBuilder Setting()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.ITableSettingBuilder.html">ITableSettingBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Tbl/TableCellBuilder.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1285 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PictureTypeBuilder
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PictureTypeBuilder
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder.md&amp;value=---%0Auid%3A%20HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder">
+
+
+
+  <h1 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder" class="text-break">
+    Class PictureTypeBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Builder.html">Builder</a>.<a class="xref" href="HwpxIO.Builder.Section.html">Section</a>.<a class="xref" href="HwpxIO.Builder.Section.Run.html">Run</a>.<a class="xref" href="HwpxIO.Builder.Section.Run.Pic.html">Pic</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PictureTypeBuilder : SwitchableBuilder&lt;PictureType&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html">HwpxBuilderCore</a>&lt;<a class="xref" href="HwpxIO.Models.PictureType.html">PictureType</a>&gt;</div>
+      <div><a class="xref" href="HwpxIO.Builder.Switchable.SwitchableBuilder-1.html">SwitchableBuilder</a>&lt;<a class="xref" href="HwpxIO.Models.PictureType.html">PictureType</a>&gt;</div>
+      <div><span class="xref">PictureTypeBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Switchable.SwitchableBuilder-1.html#HwpxIO_Builder_Switchable_SwitchableBuilder_1_AddSwitch_HwpxIO_Models_Compatibility_Switch_">SwitchableBuilder&lt;PictureType&gt;.AddSwitch(Switch)</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Switchable.SwitchableBuilder-1.html#HwpxIO_Builder_Switchable_SwitchableBuilder_1_AddSwitch_System_Action_HwpxIO_Builder_Switchable_SwitchBuilder__0___">SwitchableBuilder&lt;PictureType&gt;.AddSwitch(Action&lt;SwitchBuilder&lt;PictureType&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Build">HwpxBuilderCore&lt;PictureType&gt;.Build()</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Value">HwpxBuilderCore&lt;PictureType&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_HwpxBuilder">HwpxBuilderCore&lt;PictureType&gt;.HwpxBuilder</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder__ctor_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder__ctor_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.#ctor(HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  PictureTypeBuilder(IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder(IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder__ctor_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder__ctor_HwpxIO_Models_PictureType_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.#ctor(HwpxIO.Models.PictureType,HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  PictureTypeBuilder(PictureType, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder(PictureType value, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="HwpxIO.Models.PictureType.html">PictureType</a></dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetCurSz_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetCurSz*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetCurSz_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetCurSz(System.Int32,System.Int32)">
+  SetCurSz(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetCurSz(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetCurSzFromCentimeter_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetCurSzFromCentimeter*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetCurSzFromCentimeter_System_Single_System_Single_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetCurSzFromCentimeter(System.Single,System.Single)">
+  SetCurSzFromCentimeter(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetCurSzFromCentimeter(float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetEffects_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetEffects*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetEffects_HwpxIO_Models_EffectsType_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetEffects(HwpxIO.Models.EffectsType)">
+  SetEffects(EffectsType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetEffects(EffectsType effects)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>effects</code> <a class="xref" href="HwpxIO.Models.EffectsType.html">EffectsType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetFlip_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetFlip*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetFlip_System_Boolean_System_Boolean_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetFlip(System.Boolean,System.Boolean)">
+  SetFlip(bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetFlip(bool horizontal = false, bool vertical = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImg_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImg*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImg_HwpxIO_Models_ImageType_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImg(HwpxIO.Models.ImageType)">
+  SetImg(ImageType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImg(ImageType img)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>img</code> <a class="xref" href="HwpxIO.Models.ImageType.html">ImageType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImg_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImg*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImg_System_String_System_Single_System_Int32_System_Int32_HwpxIO_Enums_ImageTypeEffect_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImg(System.String,System.Single,System.Int32,System.Int32,HwpxIO.Enums.ImageTypeEffect)">
+  SetImg(string, float, int, int, ImageTypeEffect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImg(string imageId, float alpha = 0, int bright = 0, int contrast = 0, ImageTypeEffect effect = ImageTypeEffect.REAL_PIC)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>alpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bright</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>contrast</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>effect</code> <a class="xref" href="HwpxIO.Enums.ImageTypeEffect.html">ImageTypeEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgClip_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgClip*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgClip_HwpxIO_Models_PictureTypeImgClip_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgClip(HwpxIO.Models.PictureTypeImgClip)">
+  SetImgClip(PictureTypeImgClip)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImgClip(PictureTypeImgClip imgClip)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imgClip</code> <a class="xref" href="HwpxIO.Models.PictureTypeImgClip.html">PictureTypeImgClip</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgClip_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgClip*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgClip_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgClip(System.Int32,System.Int32,System.Int32,System.Int32)">
+  SetImgClip(int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImgClip(int left, int right, int top, int bottom)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>top</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>bottom</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgDim_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgDim*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgDim_HwpxIO_Models_PictureTypeImgDim_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgDim(HwpxIO.Models.PictureTypeImgDim)">
+  SetImgDim(PictureTypeImgDim)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImgDim(PictureTypeImgDim imgDim)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imgDim</code> <a class="xref" href="HwpxIO.Models.PictureTypeImgDim.html">PictureTypeImgDim</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgDim_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgDim*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgDim_System_Int64_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgDim(System.Int64,System.Int64)">
+  SetImgDim(long, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImgDim(long width, long height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgRect_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgRect*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgRect_HwpxIO_Models_PictureTypeImgRect_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgRect(HwpxIO.Models.PictureTypeImgRect)">
+  SetImgRect(PictureTypeImgRect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImgRect(PictureTypeImgRect imgRect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>imgRect</code> <a class="xref" href="HwpxIO.Models.PictureTypeImgRect.html">PictureTypeImgRect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgRect_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgRect*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetImgRect_System_Int64_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetImgRect(System.Int64,System.Int64)">
+  SetImgRect(long, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetImgRect(long width, long height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetInMargin_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetInMargin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetInMargin_HwpxIO_Models_InsideMarginType_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetInMargin(HwpxIO.Models.InsideMarginType)">
+  SetInMargin(InsideMarginType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetInMargin(InsideMarginType inMargin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inMargin</code> <a class="xref" href="HwpxIO.Models.InsideMarginType.html">InsideMarginType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetInMargin_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetInMargin*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetInMargin_System_Int64_System_Int64_System_Int64_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetInMargin(System.Int64,System.Int64,System.Int64,System.Int64)">
+  SetInMargin(long, long, long, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetInMargin(long left, long top, long right, long bottom)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>top</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>bottom</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetLineShape_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetLineShape*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetLineShape_HwpxIO_Models_LineShapeType_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetLineShape(HwpxIO.Models.LineShapeType)">
+  SetLineShape(LineShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetLineShape(LineShapeType lineShape)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lineShape</code> <a class="xref" href="HwpxIO.Models.LineShapeType.html">LineShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetLock_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetLock*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetLock_System_Boolean_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetLock(System.Boolean)">
+  SetLock(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetLock(bool locked = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>locked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetOffset_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetOffset*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetOffset_System_Int64_System_Int64_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetOffset(System.Int64,System.Int64)">
+  SetOffset(long, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetOffset(long xOffset = 0, long yOffset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>yOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetOrgSz_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetOrgSz*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetOrgSz_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetOrgSz(System.Int32,System.Int32)">
+  SetOrgSz(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetOrgSz(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetOrgSzFromCentimeter_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetOrgSzFromCentimeter*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetOrgSzFromCentimeter_System_Single_System_Single_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetOrgSzFromCentimeter(System.Single,System.Single)">
+  SetOrgSzFromCentimeter(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetOrgSzFromCentimeter(float width, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetPos_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetPos*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetPos_HwpxIO_Models_AbstractShapeObjectTypePos_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetPos(HwpxIO.Models.AbstractShapeObjectTypePos)">
+  SetPos(AbstractShapeObjectTypePos)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetPos(AbstractShapeObjectTypePos pos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pos</code> <a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypePos.html">AbstractShapeObjectTypePos</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetRenderingInfo_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetRenderingInfo*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetRenderingInfo_HwpxIO_Models_AbstractShapeComponentTypeRenderingInfo_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetRenderingInfo(HwpxIO.Models.AbstractShapeComponentTypeRenderingInfo)">
+  SetRenderingInfo(AbstractShapeComponentTypeRenderingInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetRenderingInfo(AbstractShapeComponentTypeRenderingInfo renderingInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>renderingInfo</code> <a class="xref" href="HwpxIO.Models.AbstractShapeComponentTypeRenderingInfo.html">AbstractShapeComponentTypeRenderingInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetRenderingInfo_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetRenderingInfo*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetRenderingInfo_HwpxIO_Models_MatrixType___" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetRenderingInfo(HwpxIO.Models.MatrixType[])">
+  SetRenderingInfo(params MatrixType[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetRenderingInfo(params MatrixType[] matrixTypes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrixTypes</code> <a class="xref" href="HwpxIO.Models.MatrixType.html">MatrixType</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetReverse_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetReverse*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetReverse_System_Boolean_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetReverse(System.Boolean)">
+  SetReverse(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetReverse(bool reverse)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reverse</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetRotationInfo_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetRotationInfo*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetRotationInfo_System_Int32_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetRotationInfo(System.Int32,System.Int32,System.Int32)">
+  SetRotationInfo(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetRotationInfo(int angle, int centerX, int centerY)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>centerX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>centerY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetSz_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetSz*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetSz_HwpxIO_Models_AbstractShapeObjectTypeSZ_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetSz(HwpxIO.Models.AbstractShapeObjectTypeSZ)">
+  SetSz(AbstractShapeObjectTypeSZ)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetSz(AbstractShapeObjectTypeSZ sz)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sz</code> <a class="xref" href="HwpxIO.Models.AbstractShapeObjectTypeSZ.html">AbstractShapeObjectTypeSZ</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetSz_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetSz*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetSz_System_Int32_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetSz(System.Int32,System.Int32)">
+  SetSz(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetSz(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetTextWrap_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetTextWrap*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder_SetTextWrap_HwpxIO_Enums_AbstractShapeObjectTypeTextWrap_" data-uid="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.SetTextWrap(HwpxIO.Enums.AbstractShapeObjectTypeTextWrap)">
+  SetTextWrap(AbstractShapeObjectTypeTextWrap)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PictureTypeBuilder SetTextWrap(AbstractShapeObjectTypeTextWrap textWrap)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textWrap</code> <a class="xref" href="HwpxIO.Enums.AbstractShapeObjectTypeTextWrap.html">AbstractShapeObjectTypeTextWrap</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/Pic/PictureTypeBuilder.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

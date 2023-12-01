@@ -1,0 +1,572 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ZipArchiveExtensions
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ZipArchiveExtensions
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Extensions_ZipArchiveExtensions.md&amp;value=---%0Auid%3A%20HwpxIO.Extensions.ZipArchiveExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Extensions.ZipArchiveExtensions">
+
+
+
+  <h1 id="HwpxIO_Extensions_ZipArchiveExtensions" data-uid="HwpxIO.Extensions.ZipArchiveExtensions" class="text-break">
+    Class ZipArchiveExtensions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Extensions.html">Extensions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Zip 아카이브 작업을 보조하는 확장 메서드를 제공하는 유틸리티 클래스입니다.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ZipArchiveExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ZipArchiveExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_CreateEntry_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.CreateEntry*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_CreateEntry_System_IO_Compression_ZipArchive_System_String_System_Byte___" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.CreateEntry(System.IO.Compression.ZipArchive,System.String,System.Byte[])">
+  CreateEntry(ZipArchive, string, byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>주어진 데이터를 사용하여 Zip 아카이브에 새 항목을 만듭니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateEntry(this ZipArchive archive, string file, byte[] data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>file</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>만들 항목의 파일 이름</p>
+</dd>
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>항목의 데이터</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_CreateEntry_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.CreateEntry*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_CreateEntry_System_IO_Compression_ZipArchive_System_String_System_String_System_Text_Encoding_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.CreateEntry(System.IO.Compression.ZipArchive,System.String,System.String,System.Text.Encoding)">
+  CreateEntry(ZipArchive, string, string, Encoding)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>주어진 내용을 사용하여 Zip 아카이브에 새 항목을 만듭니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateEntry(this ZipArchive archive, string file, string content, Encoding encoding = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>file</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>만들 항목의 파일 이름</p>
+</dd>
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>항목의 내용</p>
+</dd>
+    <dt><code>encoding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoding">Encoding</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_GetEntryImproved_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.GetEntryImproved*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_GetEntryImproved_System_IO_Compression_ZipArchive_System_String_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.GetEntryImproved(System.IO.Compression.ZipArchive,System.String)">
+  GetEntryImproved(ZipArchive, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>개선된 방법으로 Zip 아카이브에서 항목을 가져옵니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ZipArchiveEntry GetEntryImproved(this ZipArchive archive, string entryName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>entryName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>가져올 항목의 이름</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchiveentry">ZipArchiveEntry</a></dt>
+    <dd><p>Zip 아카이브 항목</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_LoadBytes_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadBytes*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_LoadBytes_System_IO_Compression_ZipArchive_System_String_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadBytes(System.IO.Compression.ZipArchive,System.String)">
+  LoadBytes(ZipArchive, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zip 아카이브에서 바이트 배열 데이터를 로드합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] LoadBytes(this ZipArchive archive, string entryName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>entryName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>로드할 항목의 이름</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>로드된 바이트 배열 데이터</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_LoadHtml_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadHtml*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_LoadHtml_System_IO_Compression_ZipArchive_System_String_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadHtml(System.IO.Compression.ZipArchive,System.String)">
+  LoadHtml(ZipArchive, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zip 아카이브에서 HTML 데이터를 로드합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static XDocument LoadHtml(this ZipArchive archive, string entryName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>entryName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>로드할 항목의 이름</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.linq.xdocument">XDocument</a></dt>
+    <dd><p>로드된 HTML 데이터 (XDocument)</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_LoadText_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadText*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_LoadText_System_IO_Compression_ZipArchive_System_String_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadText(System.IO.Compression.ZipArchive,System.String)">
+  LoadText(ZipArchive, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zip 아카이브에서 텍스트 데이터를 로드하고 인코딩 프리앰블을 제거합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LoadText(this ZipArchive archive, string entryName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>entryName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>로드할 항목의 이름</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>로드된 텍스트 데이터</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_LoadXml_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadXml*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_LoadXml_System_IO_Compression_ZipArchive_System_String_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadXml(System.IO.Compression.ZipArchive,System.String)">
+  LoadXml(ZipArchive, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zip 아카이브에서 XML 데이터를 로드합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static XDocument LoadXml(this ZipArchive archive, string entryName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>entryName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>로드할 항목의 이름</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.linq.xdocument">XDocument</a></dt>
+    <dd><p>로드된 XML 데이터 (XDocument)</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_LoadXml_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadXml*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_LoadXml__1_System_IO_Compression_ZipArchive_System_String_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadXml``1(System.IO.Compression.ZipArchive,System.String)">
+  LoadXml&lt;T&gt;(ZipArchive, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zip 아카이브에서 지정된 엔트리 이름에 대한 XML 데이터를 로드합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T LoadXml&lt;T&gt;(this ZipArchive archive, string entryName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>entryName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>엔트리 이름</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>역직렬화된 형식의 인스턴스 또는 기본값</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>역직렬화할 형식</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Extensions_ZipArchiveExtensions_LoadXml_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadXml*"></a>
+
+  <h3 id="HwpxIO_Extensions_ZipArchiveExtensions_LoadXml__1_System_IO_Compression_ZipArchive_System_String_System_Xml_Serialization_XmlAttributeOverrides_" data-uid="HwpxIO.Extensions.ZipArchiveExtensions.LoadXml``1(System.IO.Compression.ZipArchive,System.String,System.Xml.Serialization.XmlAttributeOverrides)">
+  LoadXml&lt;T&gt;(ZipArchive, string, XmlAttributeOverrides)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Zip 아카이브에서 지정된 엔트리 이름에 대한 XML 데이터를 로드하고, 사용자 지정 XML 직렬화 구성을 적용합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T LoadXml&lt;T&gt;(this ZipArchive archive, string entryName, XmlAttributeOverrides attributeOverrides)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>archive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchive">ZipArchive</a></dt>
+    <dd><p>Zip 아카이브</p>
+</dd>
+    <dt><code>entryName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>엔트리 이름</p>
+</dd>
+    <dt><code>attributeOverrides</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.xmlattributeoverrides">XmlAttributeOverrides</a></dt>
+    <dd><p>사용자 지정 XML 직렬화 구성</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>역직렬화된 형식의 인스턴스 또는 기본값</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>역직렬화할 형식</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Extensions/ZipArchiveExtensions.cs/#L17" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

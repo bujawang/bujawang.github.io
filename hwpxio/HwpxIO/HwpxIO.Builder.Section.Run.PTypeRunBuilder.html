@@ -1,0 +1,1572 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PTypeRunBuilder
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PTypeRunBuilder
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_Builder_Section_Run_PTypeRunBuilder.md&amp;value=---%0Auid%3A%20HwpxIO.Builder.Section.Run.PTypeRunBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder">
+
+
+
+  <h1 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder" class="text-break">
+    Class PTypeRunBuilder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a>.<a class="xref" href="HwpxIO.Builder.html">Builder</a>.<a class="xref" href="HwpxIO.Builder.Section.html">Section</a>.<a class="xref" href="HwpxIO.Builder.Section.Run.html">Run</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PTypeRunBuilder : HwpxBuilderCore&lt;PTypeRun&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html">HwpxBuilderCore</a>&lt;<a class="xref" href="HwpxIO.Models.PTypeRun.html">PTypeRun</a>&gt;</div>
+      <div><span class="xref">PTypeRunBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Build">HwpxBuilderCore&lt;PTypeRun&gt;.Build()</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_Value">HwpxBuilderCore&lt;PTypeRun&gt;.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="HwpxIO.Builder.Abstract.HwpxBuilderCore-1.html#HwpxIO_Builder_Abstract_HwpxBuilderCore_1_HwpxBuilder">HwpxBuilderCore&lt;PTypeRun&gt;.HwpxBuilder</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder__ctor_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder__ctor_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.#ctor(HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  PTypeRunBuilder(IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder(IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder__ctor_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.#ctor*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder__ctor_HwpxIO_Models_PTypeRun_HwpxIO_Builder_Contracts_IHwpxBuilder_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.#ctor(HwpxIO.Models.PTypeRun,HwpxIO.Builder.Contracts.IHwpxBuilder)">
+  PTypeRunBuilder(PTypeRun, IHwpxBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder(PTypeRun value, IHwpxBuilder hwpxBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="HwpxIO.Models.PTypeRun.html">PTypeRun</a></dt>
+    <dd></dd>
+    <dt><code>hwpxBuilder</code> <a class="xref" href="HwpxIO.Builder.Contracts.IHwpxBuilder.html">IHwpxBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddArc_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddArc*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddArc_HwpxIO_Models_ArcType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddArc(HwpxIO.Models.ArcType)">
+  AddArc(ArcType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddArc(ArcType arcType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arcType</code> <a class="xref" href="HwpxIO.Models.ArcType.html">ArcType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddBtn_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddBtn*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddBtn_HwpxIO_Models_PTypeRunBtn_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddBtn(HwpxIO.Models.PTypeRunBtn)">
+  AddBtn(PTypeRunBtn)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddBtn(PTypeRunBtn btn)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>btn</code> <a class="xref" href="HwpxIO.Models.PTypeRunBtn.html">PTypeRunBtn</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddChart_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddChart*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddChart_HwpxIO_Models_PTypeRunChart_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddChart(HwpxIO.Models.PTypeRunChart)">
+  AddChart(PTypeRunChart)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddChart(PTypeRunChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="HwpxIO.Models.PTypeRunChart.html">PTypeRunChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCheckBtn_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCheckBtn*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCheckBtn_HwpxIO_Models_PTypeRunCheckBtn_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCheckBtn(HwpxIO.Models.PTypeRunCheckBtn)">
+  AddCheckBtn(PTypeRunCheckBtn)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddCheckBtn(PTypeRunCheckBtn checkBtn)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>checkBtn</code> <a class="xref" href="HwpxIO.Models.PTypeRunCheckBtn.html">PTypeRunCheckBtn</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddComboBox_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddComboBox*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddComboBox_HwpxIO_Models_ComboBoxType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddComboBox(HwpxIO.Models.ComboBoxType)">
+  AddComboBox(ComboBoxType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddComboBox(ComboBoxType comboBox)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>comboBox</code> <a class="xref" href="HwpxIO.Models.ComboBoxType.html">ComboBoxType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCompose_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCompose*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCompose_HwpxIO_Models_PTypeRunCompose_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCompose(HwpxIO.Models.PTypeRunCompose)">
+  AddCompose(PTypeRunCompose)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddCompose(PTypeRunCompose compose)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>compose</code> <a class="xref" href="HwpxIO.Models.PTypeRunCompose.html">PTypeRunCompose</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddConnectLine_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddConnectLine*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddConnectLine_HwpxIO_Models_ConnectLineType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddConnectLine(HwpxIO.Models.ConnectLineType)">
+  AddConnectLine(ConnectLineType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddConnectLine(ConnectLineType connectLineType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>connectLineType</code> <a class="xref" href="HwpxIO.Models.ConnectLineType.html">ConnectLineType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddContainer_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddContainer*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddContainer_HwpxIO_Models_ContainerType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddContainer(HwpxIO.Models.ContainerType)">
+  AddContainer(ContainerType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddContainer(ContainerType containerType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>containerType</code> <a class="xref" href="HwpxIO.Models.ContainerType.html">ContainerType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCtrl_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCtrl*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCtrl_HwpxIO_Models_PTypeRunCtrl_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCtrl(HwpxIO.Models.PTypeRunCtrl)">
+  AddCtrl(PTypeRunCtrl)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddCtrl(PTypeRunCtrl ctrl)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ctrl</code> <a class="xref" href="HwpxIO.Models.PTypeRunCtrl.html">PTypeRunCtrl</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCtrl_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCtrl*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCtrl_System_Action_HwpxIO_Builder_Section_Run_Ctrl_PTypeRunCtrlBuilder__HwpxIO_Models_PTypeRunCtrl_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCtrl(System.Action{HwpxIO.Builder.Section.Run.Ctrl.PTypeRunCtrlBuilder},HwpxIO.Models.PTypeRunCtrl)">
+  AddCtrl(Action&lt;PTypeRunCtrlBuilder&gt;, PTypeRunCtrl)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddCtrl(Action&lt;PTypeRunCtrlBuilder&gt; builderAction, PTypeRunCtrl ctrl = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.Run.Ctrl.PTypeRunCtrlBuilder.html">PTypeRunCtrlBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>ctrl</code> <a class="xref" href="HwpxIO.Models.PTypeRunCtrl.html">PTypeRunCtrl</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCurve_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCurve*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddCurve_HwpxIO_Models_CurveType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddCurve(HwpxIO.Models.CurveType)">
+  AddCurve(CurveType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddCurve(CurveType curveType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curveType</code> <a class="xref" href="HwpxIO.Models.CurveType.html">CurveType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddDutmal_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddDutmal*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddDutmal_HwpxIO_Models_PTypeRunDutmal_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddDutmal(HwpxIO.Models.PTypeRunDutmal)">
+  AddDutmal(PTypeRunDutmal)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddDutmal(PTypeRunDutmal dutmal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dutmal</code> <a class="xref" href="HwpxIO.Models.PTypeRunDutmal.html">PTypeRunDutmal</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddEdit_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddEdit*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddEdit_HwpxIO_Models_EditType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddEdit(HwpxIO.Models.EditType)">
+  AddEdit(EditType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddEdit(EditType edit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>edit</code> <a class="xref" href="HwpxIO.Models.EditType.html">EditType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddEllipse_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddEllipse*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddEllipse_HwpxIO_Models_EllipseType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddEllipse(HwpxIO.Models.EllipseType)">
+  AddEllipse(EllipseType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddEllipse(EllipseType ellipseType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ellipseType</code> <a class="xref" href="HwpxIO.Models.EllipseType.html">EllipseType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddEquation_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddEquation*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddEquation_HwpxIO_Models_EquationType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddEquation(HwpxIO.Models.EquationType)">
+  AddEquation(EquationType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddEquation(EquationType equationType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>equationType</code> <a class="xref" href="HwpxIO.Models.EquationType.html">EquationType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddLine_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddLine*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddLine_HwpxIO_Models_LineType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddLine(HwpxIO.Models.LineType)">
+  AddLine(LineType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddLine(LineType lineType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lineType</code> <a class="xref" href="HwpxIO.Models.LineType.html">LineType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddListBox_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddListBox*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddListBox_HwpxIO_Models_ListBoxType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddListBox(HwpxIO.Models.ListBoxType)">
+  AddListBox(ListBoxType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddListBox(ListBoxType listBox)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>listBox</code> <a class="xref" href="HwpxIO.Models.ListBoxType.html">ListBoxType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddOle_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddOle*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddOle_HwpxIO_Models_OLEType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddOle(HwpxIO.Models.OLEType)">
+  AddOle(OLEType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddOle(OLEType oleType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oleType</code> <a class="xref" href="HwpxIO.Models.OLEType.html">OLEType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddPic_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddPic*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddPic_HwpxIO_Models_PictureType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddPic(HwpxIO.Models.PictureType)">
+  AddPic(PictureType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddPic(PictureType pictureType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pictureType</code> <a class="xref" href="HwpxIO.Models.PictureType.html">PictureType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddPic_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddPic*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddPic_System_Action_HwpxIO_Builder_Section_Run_Pic_PictureTypeBuilder__HwpxIO_Models_PictureType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddPic(System.Action{HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder},HwpxIO.Models.PictureType)">
+  AddPic(Action&lt;PictureTypeBuilder&gt;, PictureType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddPic(Action&lt;PictureTypeBuilder&gt; builderAction, PictureType pictureType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.Run.Pic.PictureTypeBuilder.html">PictureTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>pictureType</code> <a class="xref" href="HwpxIO.Models.PictureType.html">PictureType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddPolygon_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddPolygon*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddPolygon_HwpxIO_Models_PolygonType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddPolygon(HwpxIO.Models.PolygonType)">
+  AddPolygon(PolygonType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddPolygon(PolygonType polygonType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>polygonType</code> <a class="xref" href="HwpxIO.Models.PolygonType.html">PolygonType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddRadioBtn_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddRadioBtn*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddRadioBtn_HwpxIO_Models_PTypeRunRadioBtn_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddRadioBtn(HwpxIO.Models.PTypeRunRadioBtn)">
+  AddRadioBtn(PTypeRunRadioBtn)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddRadioBtn(PTypeRunRadioBtn radioBtn)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radioBtn</code> <a class="xref" href="HwpxIO.Models.PTypeRunRadioBtn.html">PTypeRunRadioBtn</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddRect_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddRect*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddRect_HwpxIO_Models_RectangleType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddRect(HwpxIO.Models.RectangleType)">
+  AddRect(RectangleType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddRect(RectangleType rectangleType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rectangleType</code> <a class="xref" href="HwpxIO.Models.RectangleType.html">RectangleType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddScrollBar_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddScrollBar*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddScrollBar_HwpxIO_Models_ScrollBarType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddScrollBar(HwpxIO.Models.ScrollBarType)">
+  AddScrollBar(ScrollBarType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddScrollBar(ScrollBarType scrollBar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scrollBar</code> <a class="xref" href="HwpxIO.Models.ScrollBarType.html">ScrollBarType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddT_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddT*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddT_HwpxIO_Models_PTypeRunT_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddT(HwpxIO.Models.PTypeRunT)">
+  AddT(PTypeRunT)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddT(PTypeRunT pTypeRunT)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pTypeRunT</code> <a class="xref" href="HwpxIO.Models.PTypeRunT.html">PTypeRunT</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddT_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddT*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddT_System_Action_HwpxIO_Builder_Section_Run_T_PTypeRunTBuilder__HwpxIO_Models_PTypeRunT_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddT(System.Action{HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder},HwpxIO.Models.PTypeRunT)">
+  AddT(Action&lt;PTypeRunTBuilder&gt;, PTypeRunT)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddT(Action&lt;PTypeRunTBuilder&gt; builderAction, PTypeRunT pTypeRunT = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.Run.T.PTypeRunTBuilder.html">PTypeRunTBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>pTypeRunT</code> <a class="xref" href="HwpxIO.Models.PTypeRunT.html">PTypeRunT</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddTbl_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddTbl*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddTbl_HwpxIO_Models_TableType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddTbl(HwpxIO.Models.TableType)">
+  AddTbl(TableType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddTbl(TableType tableType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tableType</code> <a class="xref" href="HwpxIO.Models.TableType.html">TableType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddTbl_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddTbl*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddTbl_System_Action_HwpxIO_Builder_Section_Run_Tbl_TableTypeBuilder__HwpxIO_Models_TableType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddTbl(System.Action{HwpxIO.Builder.Section.Run.Tbl.TableTypeBuilder},HwpxIO.Models.TableType)">
+  AddTbl(Action&lt;TableTypeBuilder&gt;, TableType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddTbl(Action&lt;TableTypeBuilder&gt; builderAction, TableType tableType = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.Run.Tbl.TableTypeBuilder.html">TableTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>tableType</code> <a class="xref" href="HwpxIO.Models.TableType.html">TableType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddTextart_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddTextart*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddTextart_HwpxIO_Models_PTypeRunTextart_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddTextart(HwpxIO.Models.PTypeRunTextart)">
+  AddTextart(PTypeRunTextart)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddTextart(PTypeRunTextart textart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textart</code> <a class="xref" href="HwpxIO.Models.PTypeRunTextart.html">PTypeRunTextart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddVideo_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddVideo*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_AddVideo_HwpxIO_Models_PTypeRunVideo_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.AddVideo(HwpxIO.Models.PTypeRunVideo)">
+  AddVideo(PTypeRunVideo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder AddVideo(PTypeRunVideo video)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>video</code> <a class="xref" href="HwpxIO.Models.PTypeRunVideo.html">PTypeRunVideo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetAttributes_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetAttributes*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetAttributes_System_String_System_Nullable_System_Int32__" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetAttributes(System.String,System.Nullable{System.Int32})">
+  SetAttributes(string, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder SetAttributes(string charPrIDRef = null, int? charTcId = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>charPrIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>charTcId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetCharPrIDRef_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetCharPrIDRef*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetCharPrIDRef_HwpxIO_Models_CharShapeType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetCharPrIDRef(HwpxIO.Models.CharShapeType)">
+  SetCharPrIDRef(CharShapeType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder SetCharPrIDRef(CharShapeType charShapeType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>charShapeType</code> <a class="xref" href="HwpxIO.Models.CharShapeType.html">CharShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetCharPrIDRef_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetCharPrIDRef*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetCharPrIDRef_System_String_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetCharPrIDRef(System.String)">
+  SetCharPrIDRef(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder SetCharPrIDRef(string charPrIDRef)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>charPrIDRef</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetCharTcId_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetCharTcId*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetCharTcId_System_Int32_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetCharTcId(System.Int32)">
+  SetCharTcId(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder SetCharTcId(int charTcId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>charTcId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetSecPr_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetSecPr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetSecPr_HwpxIO_Models_SectionDefinitionType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetSecPr(HwpxIO.Models.SectionDefinitionType)">
+  SetSecPr(SectionDefinitionType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder SetSecPr(SectionDefinitionType secPr)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>secPr</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionType.html">SectionDefinitionType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetSecPr_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetSecPr*"></a>
+
+  <h3 id="HwpxIO_Builder_Section_Run_PTypeRunBuilder_SetSecPr_System_Action_HwpxIO_Builder_Section_SectionDefinitionTypeBuilder__HwpxIO_Models_SectionDefinitionType_" data-uid="HwpxIO.Builder.Section.Run.PTypeRunBuilder.SetSecPr(System.Action{HwpxIO.Builder.Section.SectionDefinitionTypeBuilder},HwpxIO.Models.SectionDefinitionType)">
+  SetSecPr(Action&lt;SectionDefinitionTypeBuilder&gt;, SectionDefinitionType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PTypeRunBuilder SetSecPr(Action&lt;SectionDefinitionTypeBuilder&gt; builderAction, SectionDefinitionType secPr = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builderAction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.Section.SectionDefinitionTypeBuilder.html">SectionDefinitionTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>secPr</code> <a class="xref" href="HwpxIO.Models.SectionDefinitionType.html">SectionDefinitionType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Builder.Section.Run.PTypeRunBuilder.html">PTypeRunBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/Builder/Section/Run/PTypeRunBuilder.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

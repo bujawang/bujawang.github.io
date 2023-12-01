@@ -1,0 +1,1104 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class HwpxDocument
+ | HwpxIO </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class HwpxDocument
+ | HwpxIO ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bujawang/HwpxIO/new/master/apiSpec/new?filename=HwpxIO_HwpxDocument.md&amp;value=---%0Auid%3A%20HwpxIO.HwpxDocument%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HwpxIO">
+            HwpxIO
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HwpxIO.HwpxDocument">
+
+
+
+  <h1 id="HwpxIO_HwpxDocument" data-uid="HwpxIO.HwpxDocument" class="text-break">
+    Class HwpxDocument
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HwpxIO.html">HwpxIO</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HwpxIO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HwpxDocument : IHwpxDocument, IHwpxObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">HwpxDocument</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HwpxIO.Models.Contracts.IHwpxDocument.html">IHwpxDocument</a></div>
+      <div><a class="xref" href="HwpxIO.Models.Contracts.IHwpxObject.html">IHwpxObject</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.GenericExtensions.html#HwpxIO_Extensions_GenericExtensions_IfNotNull__1___0_System_Action___0__">GenericExtensions.IfNotNull&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetCharShapeType_HwpxIO_HwpxDocument_HwpxIO_Models_CharShapeType_">HwpxDocumentExtensions.GetCharShapeType(HwpxDocument, CharShapeType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetCharShapeType_HwpxIO_HwpxDocument_System_Action_HwpxIO_Builder_HeadType_CharProperties_CharShapeTypeBuilder__HwpxIO_Models_CharShapeType_">HwpxDocumentExtensions.GetCharShapeType(HwpxDocument, Action&lt;CharShapeTypeBuilder&gt;, CharShapeType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetCharShapeType_HwpxIO_HwpxDocument_System_String_">HwpxDocumentExtensions.GetCharShapeType(HwpxDocument, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetFont_HwpxIO_HwpxDocument_HwpxIO_Enums_FontfaceTypeLang_HwpxIO_Models_FontfaceTypeFont_">HwpxDocumentExtensions.GetFont(HwpxDocument, FontfaceTypeLang, FontfaceTypeFont)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetFont_HwpxIO_HwpxDocument_HwpxIO_Enums_FontfaceTypeLang_System_Action_HwpxIO_Builder_HeadType_Fontface_FontBuilder__HwpxIO_Models_FontfaceTypeFont_">HwpxDocumentExtensions.GetFont(HwpxDocument, FontfaceTypeLang, Action&lt;FontBuilder&gt;, FontfaceTypeFont)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetFont_HwpxIO_HwpxDocument_HwpxIO_Enums_FontfaceTypeLang_System_String_">HwpxDocumentExtensions.GetFont(HwpxDocument, FontfaceTypeLang, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetStyle_HwpxIO_HwpxDocument_HwpxIO_Models_StyleType_">HwpxDocumentExtensions.GetStyle(HwpxDocument, StyleType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_GetStyle_HwpxIO_HwpxDocument_System_Action_HwpxIO_Builder_HeadType_Styles_StyleTypeBuilder__HwpxIO_Models_StyleType_">HwpxDocumentExtensions.GetStyle(HwpxDocument, Action&lt;StyleTypeBuilder&gt;, StyleType)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_ItemCountValidate_HwpxIO_HwpxDocument_System_Boolean_">HwpxDocumentExtensions.ItemCountValidate(HwpxDocument, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_SerializeToXmlElements__1___0_">HwpxDocumentExtensions.SerializeToXmlElements&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Utils.HwpxDocumentUtils.html#HwpxIO_Utils_HwpxDocumentUtils_GetCharProperties_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentUtils.GetCharProperties(IHwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Utils.HwpxDocumentUtils.html#HwpxIO_Utils_HwpxDocumentUtils_GetFontfaces_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentUtils.GetFontfaces(IHwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Utils.HwpxDocumentUtils.html#HwpxIO_Utils_HwpxDocumentUtils_GetParaProperties_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentUtils.GetParaProperties(IHwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Utils.HwpxDocumentUtils.html#HwpxIO_Utils_HwpxDocumentUtils_GetStyles_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentUtils.GetStyles(IHwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Utils.HwpxDocumentUtils.html#HwpxIO_Utils_HwpxDocumentUtils_GetTabProperties_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentUtils.GetTabProperties(IHwpxDocument)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Utils.HwpxDocumentUtils.html#HwpxIO_Utils_HwpxDocumentUtils_TextExtraction_HwpxIO_Models_Contracts_IHwpxDocument_System_IO_TextWriter_">HwpxDocumentUtils.TextExtraction(IHwpxDocument, TextWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="HwpxIO.Extensions.HwpxDocumentExtensions.html#HwpxIO_Extensions_HwpxDocumentExtensions_ItemCountUpdate_HwpxIO_Models_Contracts_IHwpxObject_HwpxIO_Models_Contracts_IHwpxDocument_">HwpxDocumentExtensions.ItemCountUpdate(IHwpxObject, IHwpxDocument)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HwpxIO_HwpxDocument_ApplicationSetting_" data-uid="HwpxIO.HwpxDocument.ApplicationSetting*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_ApplicationSetting" data-uid="HwpxIO.HwpxDocument.ApplicationSetting">
+  ApplicationSetting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPApplicationSetting ApplicationSetting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.HWPApplicationSetting.html">HWPApplicationSetting</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_BinData_" data-uid="HwpxIO.HwpxDocument.BinData*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_BinData" data-uid="HwpxIO.HwpxDocument.BinData">
+  BinData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, byte[]&gt; BinData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_ContainerRdf_" data-uid="HwpxIO.HwpxDocument.ContainerRdf*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_ContainerRdf" data-uid="HwpxIO.HwpxDocument.ContainerRdf">
+  ContainerRdf
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContainerRdf ContainerRdf { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.Rdf.ContainerRdf.html">ContainerRdf</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_ContentHpf_" data-uid="HwpxIO.HwpxDocument.ContentHpf*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_ContentHpf" data-uid="HwpxIO.HwpxDocument.ContentHpf">
+  ContentHpf
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContentHpf ContentHpf { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.Hpf.ContentHpf.html">ContentHpf</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_HeadType_" data-uid="HwpxIO.HwpxDocument.HeadType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_HeadType" data-uid="HwpxIO.HwpxDocument.HeadType">
+  HeadType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HWPMLHeadType HeadType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.HWPMLHeadType.html">HWPMLHeadType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_Mime_" data-uid="HwpxIO.HwpxDocument.Mime*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_Mime" data-uid="HwpxIO.HwpxDocument.Mime">
+  Mime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Mime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_OcfContainer_" data-uid="HwpxIO.HwpxDocument.OcfContainer*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_OcfContainer" data-uid="HwpxIO.HwpxDocument.OcfContainer">
+  OcfContainer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OcfContainer OcfContainer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.OcfContainer.html">OcfContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_OdfManifest_" data-uid="HwpxIO.HwpxDocument.OdfManifest*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_OdfManifest" data-uid="HwpxIO.HwpxDocument.OdfManifest">
+  OdfManifest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OdfManifest OdfManifest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.Odf.OdfManifest.html">OdfManifest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_PreviewImage_" data-uid="HwpxIO.HwpxDocument.PreviewImage*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_PreviewImage" data-uid="HwpxIO.HwpxDocument.PreviewImage">
+  PreviewImage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] PreviewImage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_PreviewText_" data-uid="HwpxIO.HwpxDocument.PreviewText*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_PreviewText" data-uid="HwpxIO.HwpxDocument.PreviewText">
+  PreviewText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PreviewText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_Scripts_" data-uid="HwpxIO.HwpxDocument.Scripts*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_Scripts" data-uid="HwpxIO.HwpxDocument.Scripts">
+  Scripts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; Scripts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_SectionTypes_" data-uid="HwpxIO.HwpxDocument.SectionTypes*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_SectionTypes" data-uid="HwpxIO.HwpxDocument.SectionTypes">
+  SectionTypes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;SectionType&gt; SectionTypes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="HwpxIO.Models.SectionType.html">SectionType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_Version_" data-uid="HwpxIO.HwpxDocument.Version*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_Version" data-uid="HwpxIO.HwpxDocument.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HCFVersion Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.HCFVersion.html">HCFVersion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HwpxIO_HwpxDocument_CreateEmpty_" data-uid="HwpxIO.HwpxDocument.CreateEmpty*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_CreateEmpty" data-uid="HwpxIO.HwpxDocument.CreateEmpty">
+  CreateEmpty()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>빈 문서를 생성합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HwpxDocument CreateEmpty()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.HwpxDocument.html">HwpxDocument</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetBinData_" data-uid="HwpxIO.HwpxDocument.GetBinData*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetBinData_System_String_" data-uid="HwpxIO.HwpxDocument.GetBinData(System.String)">
+  GetBinData(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetBinData(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetBorderFillType_" data-uid="HwpxIO.HwpxDocument.GetBorderFillType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetBorderFillType_HwpxIO_Models_BorderFillType_System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetBorderFillType(HwpxIO.Models.BorderFillType,System.Boolean)">
+  GetBorderFillType(BorderFillType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BorderFillType GetBorderFillType(BorderFillType necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="HwpxIO.Models.BorderFillType.html">BorderFillType</a></dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.BorderFillType.html">BorderFillType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetBorderFillType_" data-uid="HwpxIO.HwpxDocument.GetBorderFillType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetBorderFillType_System_Action_HwpxIO_Builder_HeadType_BorderFills_BorderFillTypeBuilder__System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetBorderFillType(System.Action{HwpxIO.Builder.HeadType.BorderFills.BorderFillTypeBuilder},System.Boolean)">
+  GetBorderFillType(Action&lt;BorderFillTypeBuilder&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BorderFillType GetBorderFillType(Action&lt;BorderFillTypeBuilder&gt; necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.BorderFills.BorderFillTypeBuilder.html">BorderFillTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.BorderFillType.html">BorderFillType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetCharShapeType_" data-uid="HwpxIO.HwpxDocument.GetCharShapeType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetCharShapeType_HwpxIO_Models_CharShapeType_System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetCharShapeType(HwpxIO.Models.CharShapeType,System.Boolean)">
+  GetCharShapeType(CharShapeType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharShapeType GetCharShapeType(CharShapeType necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="HwpxIO.Models.CharShapeType.html">CharShapeType</a></dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.CharShapeType.html">CharShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetCharShapeType_" data-uid="HwpxIO.HwpxDocument.GetCharShapeType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetCharShapeType_System_Action_HwpxIO_Builder_HeadType_CharProperties_CharShapeTypeBuilder__System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetCharShapeType(System.Action{HwpxIO.Builder.HeadType.CharProperties.CharShapeTypeBuilder},System.Boolean)">
+  GetCharShapeType(Action&lt;CharShapeTypeBuilder&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharShapeType GetCharShapeType(Action&lt;CharShapeTypeBuilder&gt; necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.CharProperties.CharShapeTypeBuilder.html">CharShapeTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.CharShapeType.html">CharShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetFont_" data-uid="HwpxIO.HwpxDocument.GetFont*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetFont_HwpxIO_Models_FontfaceTypeFont_HwpxIO_Enums_FontfaceTypeLang_System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetFont(HwpxIO.Models.FontfaceTypeFont,HwpxIO.Enums.FontfaceTypeLang,System.Boolean)">
+  GetFont(FontfaceTypeFont, FontfaceTypeLang, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontfaceTypeFont GetFont(FontfaceTypeFont necessity, FontfaceTypeLang lang, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html">FontfaceTypeFont</a></dt>
+    <dd></dd>
+    <dt><code>lang</code> <a class="xref" href="HwpxIO.Enums.FontfaceTypeLang.html">FontfaceTypeLang</a></dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.FontfaceTypeFont.html">FontfaceTypeFont</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetParaShapeType_" data-uid="HwpxIO.HwpxDocument.GetParaShapeType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetParaShapeType_HwpxIO_Models_ParaShapeType_System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetParaShapeType(HwpxIO.Models.ParaShapeType,System.Boolean)">
+  GetParaShapeType(ParaShapeType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParaShapeType GetParaShapeType(ParaShapeType necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="HwpxIO.Models.ParaShapeType.html">ParaShapeType</a></dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.ParaShapeType.html">ParaShapeType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetStyleType_" data-uid="HwpxIO.HwpxDocument.GetStyleType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetStyleType_HwpxIO_Models_StyleType_System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetStyleType(HwpxIO.Models.StyleType,System.Boolean)">
+  GetStyleType(StyleType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StyleType GetStyleType(StyleType necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="HwpxIO.Models.StyleType.html">StyleType</a></dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.StyleType.html">StyleType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetStyleType_" data-uid="HwpxIO.HwpxDocument.GetStyleType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetStyleType_System_Action_HwpxIO_Builder_HeadType_Styles_StyleTypeBuilder__System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetStyleType(System.Action{HwpxIO.Builder.HeadType.Styles.StyleTypeBuilder},System.Boolean)">
+  GetStyleType(Action&lt;StyleTypeBuilder&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StyleType GetStyleType(Action&lt;StyleTypeBuilder&gt; necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.Styles.StyleTypeBuilder.html">StyleTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.StyleType.html">StyleType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetTabDefType_" data-uid="HwpxIO.HwpxDocument.GetTabDefType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetTabDefType_HwpxIO_Models_TabDefType_System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetTabDefType(HwpxIO.Models.TabDefType,System.Boolean)">
+  GetTabDefType(TabDefType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TabDefType GetTabDefType(TabDefType necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="HwpxIO.Models.TabDefType.html">TabDefType</a></dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.TabDefType.html">TabDefType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HwpxIO_HwpxDocument_GetTabDefType_" data-uid="HwpxIO.HwpxDocument.GetTabDefType*"></a>
+
+  <h3 id="HwpxIO_HwpxDocument_GetTabDefType_System_Action_HwpxIO_Builder_HeadType_TabProperties_TabDefTypeBuilder__System_Boolean_" data-uid="HwpxIO.HwpxDocument.GetTabDefType(System.Action{HwpxIO.Builder.HeadType.TabProperties.TabDefTypeBuilder},System.Boolean)">
+  GetTabDefType(Action&lt;TabDefTypeBuilder&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TabDefType GetTabDefType(Action&lt;TabDefTypeBuilder&gt; necessity, bool addIfMissing = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>necessity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HwpxIO.Builder.HeadType.TabProperties.TabDefTypeBuilder.html">TabDefTypeBuilder</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>addIfMissing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HwpxIO.Models.TabDefType.html">TabDefType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bujawang/HwpxIO/blob/master/HwpxIO/HwpxDocument.cs/#L20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
